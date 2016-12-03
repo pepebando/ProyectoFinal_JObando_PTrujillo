@@ -1,0 +1,1323 @@
+﻿[2016.12.03-19.51.36:436][  0]Log file open, 12/03/16 14:51:36
+[2016.12.03-19.51.36:436][  0]LogInit:Display: Running engine for game: MissileCommand2
+[2016.12.03-19.51.36:436][  0]LogInit:Display: RandInit(380373280) SRandInit(380373280).
+[2016.12.03-19.51.36:436][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.12.03-19.51.36:436][  0]LogStats: Stats thread started at 0.082995
+[2016.12.03-19.51.36:436][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.12.03-19.51.36:436][  0]LogInit: API Version: 2672455
+[2016.12.03-19.51.36:436][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.12.03-19.51.36:436][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.12.03-19.51.36:436][  0]LogInit: Build Configuration: Development
+[2016.12.03-19.51.36:436][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.12.03-19.51.36:436][  0]LogInit: Command line:  /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.12.03-19.51.36:436][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.12.03-19.51.36:436][  0]LogInit: Rocket: 1
+[2016.12.03-19.51.36:455][  0]LogInit: Using libcurl 7.41.0
+[2016.12.03-19.51.36:455][  0]LogInit:  - built for x86_64-pc-win32
+[2016.12.03-19.51.36:455][  0]LogInit:  - supports SSL with WinSSL
+[2016.12.03-19.51.36:455][  0]LogInit:  - other features:
+[2016.12.03-19.51.36:455][  0]LogInit:      CURL_VERSION_SSL
+[2016.12.03-19.51.36:455][  0]LogInit:      CURL_VERSION_IPV6
+[2016.12.03-19.51.36:455][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.12.03-19.51.36:455][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.12.03-19.51.36:455][  0]LogInit:      CURL_VERSION_IDN
+[2016.12.03-19.51.36:455][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.12.03-19.51.36:455][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.12.03-19.51.36:455][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.12.03-19.51.36:455][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.12.03-19.51.36:455][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.12.03-19.51.36:464][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.12.03-19.51.36:470][  0]LogInit: Object subsystem initialized
+[2016.12.03-19.51.36:471][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.03-19.51.36:471][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.03-19.51.36:474][  0]LogInit: Computer: MSI
+[2016.12.03-19.51.36:474][  0]LogInit: User: jsoba
+[2016.12.03-19.51.36:474][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.12.03-19.51.36:474][  0]LogInit: High frequency timer resolution =2.630620 MHz
+[2016.12.03-19.51.36:474][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.03-19.51.36:474][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.03-19.51.36:474][  0]LogMemory: Process Physical Memory: 54.88 MB used, 54.88 MB peak
+[2016.12.03-19.51.36:474][  0]LogMemory: Process Virtual Memory: 55.65 MB used, 55.65 MB peak
+[2016.12.03-19.51.36:474][  0]LogMemory: Physical Memory: 7506.37 MB used, 16299.20 MB total
+[2016.12.03-19.51.36:474][  0]LogMemory: Virtual Memory: 369.84 MB used, 134217728.00 MB total
+[2016.12.03-19.51.37:084][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.03-19.51.37:689][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M        (Feature Level 11_0)
+[2016.12.03-19.51.37:689][  0]LogD3D11RHI: Adapter has 2991MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 1 output[s]
+[2016.12.03-19.51.37:693][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5600 (Feature Level 11_0)
+[2016.12.03-19.51.37:693][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.03-19.51.37:694][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.12.03-19.51.37:694][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.03-19.51.37:694][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.12.03-19.51.37:701][  0]LogD3D11RHI: !Direct3DDevice
+[2016.12.03-19.51.37:701][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.03-19.51.37:714][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.03-19.51.37:726][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Intermediate/Shaders/WorkingDirectory/16340/).
+[2016.12.03-19.51.37:726][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Intermediate/Shaders/tmp/7E8746B048D5191777A6B2BA4B1EFEB6/'.
+[2016.12.03-19.51.37:726][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.03-19.51.38:762][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.03-19.51.38:767][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.03-19.51.38:772][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.03-19.51.38:778][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.03-19.51.38:783][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.03-19.51.38:786][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.03-19.51.38:789][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.03-19.51.38:792][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.03-19.51.38:796][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.03-19.51.38:799][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.03-19.51.38:803][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.03-19.51.38:806][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.03-19.51.38:807][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.03-19.51.38:825][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.03-19.51.38:828][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.03-19.51.38:832][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.03-19.51.38:835][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.03-19.51.38:835][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.03-19.51.38:927][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.03-19.51.38:972][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.12.03-19.51.38:972][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.12.03-19.51.38:972][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.03-19.51.38:972][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.03-19.51.38:972][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.03-19.51.38:972][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.03-19.51.39:101][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.03-19.51.39:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsoba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.03-19.51.39:264][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.03-19.51.39:266][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.12.03-19.51.39:372][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.03-19.51.39:372][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.03-19.51.39:567][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.03-19.51.39:746][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Content/Movies/Default_Startup.mp4
+[2016.12.03-19.51.39:870][  0]SourceControl: Info Source control is disabled
+[2016.12.03-19.51.39:870][  0]SourceControl: Info Source control is disabled
+[2016.12.03-19.51.39:885][  0]SourceControl: Info Source control is disabled
+[2016.12.03-19.51.39:986][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.03-19.51.40:075][  0]LogObj: 27669 objects as part of root set at end of initial load.
+[2016.12.03-19.51.40:075][  0]LogUObjectAllocator: 5775696 out of 0 bytes used by permanent object pool.
+[2016.12.03-19.51.40:124][  0]LogEngine: Initializing Engine...
+[2016.12.03-19.51.40:126][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.12.03-19.51.40:127][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.03-19.51.40:222][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.03-19.51.40:259][  0]LogInit: FAudioDevice initialized.
+[2016.12.03-19.51.40:263][  0]LogInit: Texture streaming: Enabled
+[2016.12.03-19.51.40:319][  0]LogNet: Browse: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2016.12.03-19.51.40:321][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2016.12.03-19.51.40:331][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027A3BC55120
+[2016.12.03-19.51.40:341][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.03-19.51.40:341][  0]LogMemory: Process Physical Memory: 394.32 MB used, 394.32 MB peak
+[2016.12.03-19.51.40:341][  0]LogMemory: Process Virtual Memory: 452.13 MB used, 452.13 MB peak
+[2016.12.03-19.51.40:341][  0]LogMemory: Physical Memory: 7805.13 MB used, 16299.20 MB total
+[2016.12.03-19.51.40:341][  0]LogMemory: Virtual Memory: 1017.09 MB used, 134217728.00 MB total
+[2016.12.03-19.51.40:341][  0]LogMemory: 
+[2016.12.03-19.51.40:341][  0]Allocator Stats for TBB: (not implemented)
+[2016.12.03-19.51.40:427][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.03-19.51.40:429][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.32] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.51.40:429][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.32] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:429][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.32] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:456][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.03-19.51.40:459][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.35] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.51.40:459][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.35] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:459][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.35] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:485][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.03-19.51.40:487][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.38] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.51.40:488][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.38] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:488][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.38] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:513][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.03-19.51.40:516][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.40] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.51.40:516][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.41] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:516][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.41] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:552][  0]LogLinker:Warning: Asset '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.03-19.51.40:601][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'Arrow': FirstPersonCharacter_C /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2016.12.03-19.51.40:723][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.03-19.51.40:725][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.61] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 6 ms]
+[2016.12.03-19.51.40:725][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.61] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:725][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.61] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:740][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.03-19.51.40:743][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.63] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 6 ms]
+[2016.12.03-19.51.40:743][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.63] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:743][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.63] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:755][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.03-19.51.40:758][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.65] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 6 ms]
+[2016.12.03-19.51.40:758][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.65] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:758][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.65] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:770][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.03-19.51.40:773][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.66] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 6 ms]
+[2016.12.03-19.51.40:773][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.66] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:774][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.66] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.51.40:992][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.03-19.51.40:992][  0]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.03-19.51.40:994][  0]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.51.40:997][  0]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.51.40:997][  0]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.51.40:997][  0]LogWorld: Bringing World /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.03-14.51.40
+[2016.12.03-19.51.40:998][  0]LogWorld: Bringing up level for play took: 0.004923
+[2016.12.03-19.51.41:000][  0]LogInit:Display: Game Engine Initialized.
+[2016.12.03-19.51.41:226][  0]LogLoad: Full Startup: 5.12 seconds (BP compile: 0.19 seconds)
+[2016.12.03-19.51.41:243][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.03-19.51.41:310][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.12.03-19.51.41:372][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.12.03-19.51.41:372][  1]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.145936
+[2016.12.03-19.51.41:398][  2]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.171861
+[2016.12.03-19.51.41:414][  3]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.187991
+[2016.12.03-19.51.41:431][  4]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.20412
+[2016.12.03-19.51.41:447][  5]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.220249
+[2016.12.03-19.51.41:463][  6]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.236379
+[2016.12.03-19.51.41:479][  7]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.252508
+[2016.12.03-19.51.41:495][  8]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.268637
+[2016.12.03-19.51.41:511][  9]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.284766
+[2016.12.03-19.51.41:527][ 10]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.300896
+[2016.12.03-19.51.41:543][ 11]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.317025
+[2016.12.03-19.51.41:560][ 12]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.333154
+[2016.12.03-19.51.41:576][ 13]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.349284
+[2016.12.03-19.51.41:592][ 14]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.365413
+[2016.12.03-19.51.41:608][ 15]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.381542
+[2016.12.03-19.51.41:624][ 16]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.397671
+[2016.12.03-19.51.41:640][ 17]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.413801
+[2016.12.03-19.51.41:656][ 18]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.42993
+[2016.12.03-19.51.41:673][ 19]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.446059
+[2016.12.03-19.51.41:689][ 20]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.462189
+[2016.12.03-19.51.41:705][ 21]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.478318
+[2016.12.03-19.51.41:721][ 22]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.494447
+[2016.12.03-19.51.41:737][ 23]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.510576
+[2016.12.03-19.51.41:753][ 24]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.526706
+[2016.12.03-19.51.41:769][ 25]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.542835
+[2016.12.03-19.51.41:785][ 26]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.558964
+[2016.12.03-19.51.41:802][ 27]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.575093
+[2016.12.03-19.51.41:818][ 28]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.591223
+[2016.12.03-19.51.41:834][ 29]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.607352
+[2016.12.03-19.51.41:850][ 30]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.623481
+[2016.12.03-19.51.41:866][ 31]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.63961
+[2016.12.03-19.51.41:882][ 32]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.65574
+[2016.12.03-19.51.41:898][ 33]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.671869
+[2016.12.03-19.51.41:914][ 34]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.687998
+[2016.12.03-19.51.41:930][ 35]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.704127
+[2016.12.03-19.51.41:947][ 36]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.720257
+[2016.12.03-19.51.41:963][ 37]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.736386
+[2016.12.03-19.51.41:979][ 38]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.752515
+[2016.12.03-19.51.41:995][ 39]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.768644
+[2016.12.03-19.51.42:011][ 40]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.784774
+[2016.12.03-19.51.42:027][ 41]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.800903
+[2016.12.03-19.51.42:043][ 42]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.817032
+[2016.12.03-19.51.42:060][ 43]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.833161
+[2016.12.03-19.51.42:076][ 44]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.849291
+[2016.12.03-19.51.42:092][ 45]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.86542
+[2016.12.03-19.51.42:108][ 46]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.881549
+[2016.12.03-19.51.42:124][ 47]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.897678
+[2016.12.03-19.51.42:140][ 48]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.913808
+[2016.12.03-19.51.42:156][ 49]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.929937
+[2016.12.03-19.51.42:173][ 50]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.946066
+[2016.12.03-19.51.42:189][ 51]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.962196
+[2016.12.03-19.51.42:205][ 52]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.978325
+[2016.12.03-19.51.42:221][ 53]LogBlueprintUserMessages: [MissileCommandGM_C_0] 0.994454
+[2016.12.03-19.51.42:237][ 54]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.010583
+[2016.12.03-19.51.42:253][ 55]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.026713
+[2016.12.03-19.51.42:269][ 56]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.042842
+[2016.12.03-19.51.42:285][ 57]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.058971
+[2016.12.03-19.51.42:301][ 58]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.0751
+[2016.12.03-19.51.42:318][ 59]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.09123
+[2016.12.03-19.51.42:333][ 60]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.107359
+[2016.12.03-19.51.42:350][ 61]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.123488
+[2016.12.03-19.51.42:366][ 62]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.139617
+[2016.12.03-19.51.42:382][ 63]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.155747
+[2016.12.03-19.51.42:398][ 64]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.171876
+[2016.12.03-19.51.42:414][ 65]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.188005
+[2016.12.03-19.51.42:431][ 66]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.204134
+[2016.12.03-19.51.42:447][ 67]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.220264
+[2016.12.03-19.51.42:463][ 68]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.236393
+[2016.12.03-19.51.42:479][ 69]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.252522
+[2016.12.03-19.51.42:495][ 70]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.268651
+[2016.12.03-19.51.42:511][ 71]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.284781
+[2016.12.03-19.51.42:528][ 72]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.30091
+[2016.12.03-19.51.42:544][ 73]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.317039
+[2016.12.03-19.51.42:560][ 74]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.333168
+[2016.12.03-19.51.42:576][ 75]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.349298
+[2016.12.03-19.51.42:592][ 76]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.365427
+[2016.12.03-19.51.42:608][ 77]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.381556
+[2016.12.03-19.51.42:624][ 78]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.397685
+[2016.12.03-19.51.42:641][ 79]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.413815
+[2016.12.03-19.51.42:657][ 80]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.429944
+[2016.12.03-19.51.42:673][ 81]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.446073
+[2016.12.03-19.51.42:689][ 82]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.462202
+[2016.12.03-19.51.42:705][ 83]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.478332
+[2016.12.03-19.51.42:721][ 84]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.494461
+[2016.12.03-19.51.42:737][ 85]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.51059
+[2016.12.03-19.51.42:753][ 86]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.526719
+[2016.12.03-19.51.42:770][ 87]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.542849
+[2016.12.03-19.51.42:786][ 88]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.558978
+[2016.12.03-19.51.42:802][ 89]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.575107
+[2016.12.03-19.51.42:818][ 90]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.591236
+[2016.12.03-19.51.42:834][ 91]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.607366
+[2016.12.03-19.51.42:850][ 92]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.623495
+[2016.12.03-19.51.42:866][ 93]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.639624
+[2016.12.03-19.51.42:883][ 94]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.655753
+[2016.12.03-19.51.42:898][ 95]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.671883
+[2016.12.03-19.51.42:915][ 96]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.688042
+[2016.12.03-19.51.42:931][ 97]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.704171
+[2016.12.03-19.51.42:947][ 98]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.720301
+[2016.12.03-19.51.42:963][ 99]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.73643
+[2016.12.03-19.51.42:979][100]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.752559
+[2016.12.03-19.51.42:995][101]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.768688
+[2016.12.03-19.51.43:011][102]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.784818
+[2016.12.03-19.51.43:028][103]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.800947
+[2016.12.03-19.51.43:044][104]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.817076
+[2016.12.03-19.51.43:060][105]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.833205
+[2016.12.03-19.51.43:076][106]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.849335
+[2016.12.03-19.51.43:092][107]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.865464
+[2016.12.03-19.51.43:108][108]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.881593
+[2016.12.03-19.51.43:124][109]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.897722
+[2016.12.03-19.51.43:141][110]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.913852
+[2016.12.03-19.51.43:157][111]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.929981
+[2016.12.03-19.51.43:173][112]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.94611
+[2016.12.03-19.51.43:189][113]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.962239
+[2016.12.03-19.51.43:205][114]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.978369
+[2016.12.03-19.51.43:221][115]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1.994498
+[2016.12.03-19.51.43:237][116]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.010627
+[2016.12.03-19.51.43:253][117]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.026757
+[2016.12.03-19.51.43:269][118]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.042887
+[2016.12.03-19.51.43:285][119]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.059016
+[2016.12.03-19.51.43:302][120]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.075146
+[2016.12.03-19.51.43:318][121]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.091275
+[2016.12.03-19.51.43:334][122]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.107404
+[2016.12.03-19.51.43:350][123]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.123533
+[2016.12.03-19.51.43:366][124]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.139663
+[2016.12.03-19.51.43:382][125]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.155792
+[2016.12.03-19.51.43:398][126]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.171921
+[2016.12.03-19.51.43:414][127]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.188051
+[2016.12.03-19.51.43:431][128]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.20418
+[2016.12.03-19.51.43:447][129]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.220309
+[2016.12.03-19.51.43:463][130]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.236438
+[2016.12.03-19.51.43:479][131]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.252568
+[2016.12.03-19.51.43:495][132]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.268697
+[2016.12.03-19.51.43:512][133]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.284826
+[2016.12.03-19.51.43:528][134]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.300955
+[2016.12.03-19.51.43:544][135]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.317085
+[2016.12.03-19.51.43:560][136]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.333214
+[2016.12.03-19.51.43:576][137]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.349343
+[2016.12.03-19.51.43:592][138]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.365472
+[2016.12.03-19.51.43:608][139]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.381602
+[2016.12.03-19.51.43:624][140]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.397731
+[2016.12.03-19.51.43:641][141]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.41386
+[2016.12.03-19.51.43:657][142]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.429989
+[2016.12.03-19.51.43:673][143]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.446119
+[2016.12.03-19.51.43:689][144]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.462248
+[2016.12.03-19.51.43:705][145]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.478377
+[2016.12.03-19.51.43:721][146]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.494506
+[2016.12.03-19.51.43:737][147]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.510636
+[2016.12.03-19.51.43:753][148]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.526765
+[2016.12.03-19.51.43:769][149]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.542894
+[2016.12.03-19.51.43:786][150]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.559023
+[2016.12.03-19.51.43:802][151]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.575153
+[2016.12.03-19.51.43:818][152]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.591282
+[2016.12.03-19.51.43:834][153]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.607411
+[2016.12.03-19.51.43:850][154]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.62354
+[2016.12.03-19.51.43:866][155]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.63967
+[2016.12.03-19.51.43:882][156]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.655799
+[2016.12.03-19.51.43:898][157]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.671928
+[2016.12.03-19.51.43:915][158]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.688057
+[2016.12.03-19.51.43:931][159]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.704187
+[2016.12.03-19.51.43:947][160]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.720316
+[2016.12.03-19.51.43:963][161]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.736445
+[2016.12.03-19.51.43:979][162]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.752574
+[2016.12.03-19.51.43:995][163]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.768704
+[2016.12.03-19.51.44:011][164]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.784833
+[2016.12.03-19.51.44:027][165]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.800962
+[2016.12.03-19.51.44:043][166]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.817091
+[2016.12.03-19.51.44:060][167]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.833221
+[2016.12.03-19.51.44:076][168]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.84935
+[2016.12.03-19.51.44:092][169]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.865479
+[2016.12.03-19.51.44:108][170]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.881608
+[2016.12.03-19.51.44:124][171]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.897738
+[2016.12.03-19.51.44:140][172]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.913867
+[2016.12.03-19.51.44:156][173]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.929996
+[2016.12.03-19.51.44:173][174]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.946126
+[2016.12.03-19.51.44:189][175]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.962255
+[2016.12.03-19.51.44:205][176]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.978384
+[2016.12.03-19.51.44:221][177]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2.994513
+[2016.12.03-19.51.44:237][178]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.010643
+[2016.12.03-19.51.44:253][179]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.026772
+[2016.12.03-19.51.44:269][180]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.042901
+[2016.12.03-19.51.44:285][181]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.05903
+[2016.12.03-19.51.44:302][182]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.07516
+[2016.12.03-19.51.44:318][183]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.091289
+[2016.12.03-19.51.44:334][184]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.107418
+[2016.12.03-19.51.44:350][185]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.123547
+[2016.12.03-19.51.44:366][186]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.139677
+[2016.12.03-19.51.44:382][187]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.155806
+[2016.12.03-19.51.44:398][188]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.171935
+[2016.12.03-19.51.44:414][189]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.188064
+[2016.12.03-19.51.44:431][190]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.204194
+[2016.12.03-19.51.44:447][191]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.220323
+[2016.12.03-19.51.44:463][192]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.236452
+[2016.12.03-19.51.44:479][193]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.252581
+[2016.12.03-19.51.44:495][194]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.268711
+[2016.12.03-19.51.44:511][195]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.28484
+[2016.12.03-19.51.44:527][196]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.300969
+[2016.12.03-19.51.44:544][197]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.317098
+[2016.12.03-19.51.44:560][198]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.333228
+[2016.12.03-19.51.44:576][199]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.349357
+[2016.12.03-19.51.44:592][200]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.365486
+[2016.12.03-19.51.44:608][201]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.381615
+[2016.12.03-19.51.44:624][202]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.397745
+[2016.12.03-19.51.44:640][203]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.413874
+[2016.12.03-19.51.44:656][204]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.430003
+[2016.12.03-19.51.44:673][205]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.446132
+[2016.12.03-19.51.44:689][206]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.462262
+[2016.12.03-19.51.44:705][207]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.478391
+[2016.12.03-19.51.44:721][208]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.49452
+[2016.12.03-19.51.44:737][209]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.510649
+[2016.12.03-19.51.44:753][210]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.526779
+[2016.12.03-19.51.44:769][211]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.542908
+[2016.12.03-19.51.44:785][212]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.559037
+[2016.12.03-19.51.44:801][213]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.575166
+[2016.12.03-19.51.44:818][214]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.591296
+[2016.12.03-19.51.44:834][215]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.607425
+[2016.12.03-19.51.44:850][216]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.623554
+[2016.12.03-19.51.44:866][217]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.639683
+[2016.12.03-19.51.44:882][218]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.655813
+[2016.12.03-19.51.44:899][219]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.671942
+[2016.12.03-19.51.44:915][220]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.688072
+[2016.12.03-19.51.44:931][221]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.704201
+[2016.12.03-19.51.44:947][222]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.720331
+[2016.12.03-19.51.44:967][223]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.73646
+[2016.12.03-19.51.44:979][224]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.75259
+[2016.12.03-19.51.44:995][225]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.768816
+[2016.12.03-19.51.45:011][226]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.784945
+[2016.12.03-19.51.45:027][227]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.801075
+[2016.12.03-19.51.45:044][228]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.817204
+[2016.12.03-19.51.45:060][229]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.833333
+[2016.12.03-19.51.45:076][230]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.849462
+[2016.12.03-19.51.45:092][231]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.865592
+[2016.12.03-19.51.45:108][232]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.881721
+[2016.12.03-19.51.45:124][233]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.89785
+[2016.12.03-19.51.45:140][234]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.913979
+[2016.12.03-19.51.45:156][235]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.930109
+[2016.12.03-19.51.45:172][236]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.946238
+[2016.12.03-19.51.45:189][237]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.962367
+[2016.12.03-19.51.45:205][238]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.978496
+[2016.12.03-19.51.45:221][239]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3.994626
+[2016.12.03-19.51.45:237][240]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.010755
+[2016.12.03-19.51.45:253][241]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.026885
+[2016.12.03-19.51.45:269][242]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.043014
+[2016.12.03-19.51.45:285][243]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.059144
+[2016.12.03-19.51.45:302][244]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.075273
+[2016.12.03-19.51.45:318][245]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.091403
+[2016.12.03-19.51.45:334][246]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.107532
+[2016.12.03-19.51.45:350][247]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.123662
+[2016.12.03-19.51.45:366][248]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.139791
+[2016.12.03-19.51.45:382][249]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.155921
+[2016.12.03-19.51.45:398][250]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.17205
+[2016.12.03-19.51.45:415][251]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.188179
+[2016.12.03-19.51.45:431][252]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.204309
+[2016.12.03-19.51.45:447][253]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.220438
+[2016.12.03-19.51.45:463][254]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.236568
+[2016.12.03-19.51.45:479][255]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.252697
+[2016.12.03-19.51.45:495][256]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.268827
+[2016.12.03-19.51.45:511][257]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.284956
+[2016.12.03-19.51.45:528][258]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.301086
+[2016.12.03-19.51.45:544][259]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.317215
+[2016.12.03-19.51.45:560][260]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.333345
+[2016.12.03-19.51.45:576][261]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.349474
+[2016.12.03-19.51.45:592][262]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.365604
+[2016.12.03-19.51.45:608][263]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.381733
+[2016.12.03-19.51.45:624][264]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.397863
+[2016.12.03-19.51.45:641][265]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.413992
+[2016.12.03-19.51.45:657][266]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.430122
+[2016.12.03-19.51.45:673][267]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.446251
+[2016.12.03-19.51.45:689][268]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.462381
+[2016.12.03-19.51.45:706][269]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.47851
+[2016.12.03-19.51.45:722][270]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.49464
+[2016.12.03-19.51.45:737][271]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.510769
+[2016.12.03-19.51.45:753][272]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.526899
+[2016.12.03-19.51.45:769][273]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.543028
+[2016.12.03-19.51.45:786][274]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.559158
+[2016.12.03-19.51.45:802][275]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.575287
+[2016.12.03-19.51.45:817][276]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.591418
+[2016.12.03-19.51.45:834][277]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.607547
+[2016.12.03-19.51.45:850][278]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.623677
+[2016.12.03-19.51.45:866][279]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.639806
+[2016.12.03-19.51.45:882][280]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.655936
+[2016.12.03-19.51.45:899][281]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.672065
+[2016.12.03-19.51.45:915][282]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.688195
+[2016.12.03-19.51.45:931][283]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.704324
+[2016.12.03-19.51.45:947][284]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.720454
+[2016.12.03-19.51.45:963][285]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.736583
+[2016.12.03-19.51.45:979][286]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.752713
+[2016.12.03-19.51.45:995][287]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.768842
+[2016.12.03-19.51.46:011][288]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.784972
+[2016.12.03-19.51.46:028][289]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.801101
+[2016.12.03-19.51.46:044][290]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.817231
+[2016.12.03-19.51.46:060][291]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.83336
+[2016.12.03-19.51.46:076][292]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.84949
+[2016.12.03-19.51.46:092][293]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.865619
+[2016.12.03-19.51.46:108][294]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.881749
+[2016.12.03-19.51.46:124][295]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.897878
+[2016.12.03-19.51.46:140][296]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.914008
+[2016.12.03-19.51.46:157][297]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.930137
+[2016.12.03-19.51.46:173][298]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.946267
+[2016.12.03-19.51.46:189][299]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.962396
+[2016.12.03-19.51.46:205][300]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.978526
+[2016.12.03-19.51.46:222][301]LogBlueprintUserMessages: [MissileCommandGM_C_0] 4.994655
+[2016.12.03-19.51.46:237][302]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.010785
+[2016.12.03-19.51.46:253][303]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.026914
+[2016.12.03-19.51.46:269][304]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.043044
+[2016.12.03-19.51.46:286][305]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.059173
+[2016.12.03-19.51.46:302][306]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.075303
+[2016.12.03-19.51.46:318][307]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.091432
+[2016.12.03-19.51.46:334][308]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.107562
+[2016.12.03-19.51.46:350][309]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.123691
+[2016.12.03-19.51.46:366][310]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.139821
+[2016.12.03-19.51.46:382][311]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.15595
+[2016.12.03-19.51.46:398][312]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.17208
+[2016.12.03-19.51.46:415][313]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.188209
+[2016.12.03-19.51.46:431][314]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.204339
+[2016.12.03-19.51.46:447][315]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.220468
+[2016.12.03-19.51.46:463][316]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.236598
+[2016.12.03-19.51.46:479][317]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.252727
+[2016.12.03-19.51.46:495][318]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.268857
+[2016.12.03-19.51.46:511][319]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.284986
+[2016.12.03-19.51.46:527][320]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.301116
+[2016.12.03-19.51.46:543][321]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.317245
+[2016.12.03-19.51.46:560][322]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.333375
+[2016.12.03-19.51.46:576][323]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.349504
+[2016.12.03-19.51.46:592][324]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.365633
+[2016.12.03-19.51.46:608][325]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.381763
+[2016.12.03-19.51.46:624][326]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.397892
+[2016.12.03-19.51.46:641][327]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.414022
+[2016.12.03-19.51.46:657][328]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.430151
+[2016.12.03-19.51.46:673][329]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.446281
+[2016.12.03-19.51.46:689][330]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.46241
+[2016.12.03-19.51.46:705][331]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.47854
+[2016.12.03-19.51.46:722][332]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.494669
+[2016.12.03-19.51.46:737][333]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.510799
+[2016.12.03-19.51.46:753][334]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.526928
+[2016.12.03-19.51.46:770][335]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.543058
+[2016.12.03-19.51.46:786][336]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.559187
+[2016.12.03-19.51.46:802][337]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.575317
+[2016.12.03-19.51.46:818][338]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.591446
+[2016.12.03-19.51.46:834][339]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.607576
+[2016.12.03-19.51.46:850][340]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.623705
+[2016.12.03-19.51.46:866][341]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.639835
+[2016.12.03-19.51.46:882][342]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.655964
+[2016.12.03-19.51.46:898][343]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.672094
+[2016.12.03-19.51.46:915][344]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.688223
+[2016.12.03-19.51.46:931][345]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.704353
+[2016.12.03-19.51.46:947][346]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.720482
+[2016.12.03-19.51.46:963][347]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.736612
+[2016.12.03-19.51.46:979][348]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.752741
+[2016.12.03-19.51.46:995][349]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.768871
+[2016.12.03-19.51.47:011][350]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.785
+[2016.12.03-19.51.47:027][351]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.80113
+[2016.12.03-19.51.47:043][352]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.817259
+[2016.12.03-19.51.47:059][353]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.833389
+[2016.12.03-19.51.47:076][354]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.849518
+[2016.12.03-19.51.47:092][355]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.865648
+[2016.12.03-19.51.47:108][356]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.881777
+[2016.12.03-19.51.47:124][357]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.897907
+[2016.12.03-19.51.47:141][358]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.914036
+[2016.12.03-19.51.47:157][359]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.930166
+[2016.12.03-19.51.47:173][360]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.946295
+[2016.12.03-19.51.47:189][361]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.962425
+[2016.12.03-19.51.47:205][362]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.978554
+[2016.12.03-19.51.47:222][363]LogBlueprintUserMessages: [MissileCommandGM_C_0] 5.994684
+[2016.12.03-19.51.47:237][364]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.010813
+[2016.12.03-19.51.47:253][365]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.026943
+[2016.12.03-19.51.47:269][366]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.043072
+[2016.12.03-19.51.47:286][367]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.059202
+[2016.12.03-19.51.47:302][368]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.075331
+[2016.12.03-19.51.47:318][369]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.091461
+[2016.12.03-19.51.47:334][370]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.10759
+[2016.12.03-19.51.47:350][371]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.12372
+[2016.12.03-19.51.47:366][372]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.139849
+[2016.12.03-19.51.47:382][373]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.155979
+[2016.12.03-19.51.47:398][374]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.172108
+[2016.12.03-19.51.47:415][375]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.188238
+[2016.12.03-19.51.47:431][376]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.204367
+[2016.12.03-19.51.47:447][377]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.220497
+[2016.12.03-19.51.47:463][378]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.236626
+[2016.12.03-19.51.47:479][379]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.252756
+[2016.12.03-19.51.47:495][380]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.268885
+[2016.12.03-19.51.47:511][381]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.285015
+[2016.12.03-19.51.47:527][382]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.301144
+[2016.12.03-19.51.47:543][383]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.317274
+[2016.12.03-19.51.47:560][384]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.333403
+[2016.12.03-19.51.47:576][385]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.349533
+[2016.12.03-19.51.47:592][386]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.365662
+[2016.12.03-19.51.47:608][387]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.381792
+[2016.12.03-19.51.47:624][388]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.397921
+[2016.12.03-19.51.47:640][389]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.414051
+[2016.12.03-19.51.47:656][390]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.43018
+[2016.12.03-19.51.47:672][391]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.44631
+[2016.12.03-19.51.47:689][392]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.462439
+[2016.12.03-19.51.47:705][393]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.478569
+[2016.12.03-19.51.47:721][394]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.494707
+[2016.12.03-19.51.47:737][395]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.510837
+[2016.12.03-19.51.47:753][396]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.526966
+[2016.12.03-19.51.47:770][397]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.543096
+[2016.12.03-19.51.47:786][398]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.559225
+[2016.12.03-19.51.47:802][399]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.575355
+[2016.12.03-19.51.47:818][400]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.591484
+[2016.12.03-19.51.47:834][401]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.607614
+[2016.12.03-19.51.47:850][402]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.623743
+[2016.12.03-19.51.47:866][403]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.639873
+[2016.12.03-19.51.47:882][404]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.656002
+[2016.12.03-19.51.47:899][405]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.672132
+[2016.12.03-19.51.47:915][406]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.688261
+[2016.12.03-19.51.47:931][407]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.704391
+[2016.12.03-19.51.47:947][408]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.72052
+[2016.12.03-19.51.47:963][409]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.73665
+[2016.12.03-19.51.47:979][410]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.752779
+[2016.12.03-19.51.47:995][411]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.768909
+[2016.12.03-19.51.48:011][412]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.785038
+[2016.12.03-19.51.48:027][413]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.801167
+[2016.12.03-19.51.48:044][414]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.817297
+[2016.12.03-19.51.48:060][415]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.833426
+[2016.12.03-19.51.48:076][416]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.849556
+[2016.12.03-19.51.48:092][417]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.865685
+[2016.12.03-19.51.48:108][418]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.881815
+[2016.12.03-19.51.48:124][419]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.897944
+[2016.12.03-19.51.48:140][420]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.914074
+[2016.12.03-19.51.48:156][421]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.930203
+[2016.12.03-19.51.48:172][422]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.946333
+[2016.12.03-19.51.48:189][423]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.962462
+[2016.12.03-19.51.48:205][424]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.978592
+[2016.12.03-19.51.48:221][425]LogBlueprintUserMessages: [MissileCommandGM_C_0] 6.994721
+[2016.12.03-19.51.48:237][426]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.010851
+[2016.12.03-19.51.48:253][427]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.02698
+[2016.12.03-19.51.48:269][428]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.04311
+[2016.12.03-19.51.48:285][429]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.059239
+[2016.12.03-19.51.48:301][430]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.075369
+[2016.12.03-19.51.48:318][431]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.091498
+[2016.12.03-19.51.48:334][432]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.107628
+[2016.12.03-19.51.48:350][433]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.123757
+[2016.12.03-19.51.48:366][434]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.139887
+[2016.12.03-19.51.48:382][435]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.156016
+[2016.12.03-19.51.48:398][436]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.172146
+[2016.12.03-19.51.48:415][437]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.188275
+[2016.12.03-19.51.48:431][438]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.204405
+[2016.12.03-19.51.48:447][439]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.220534
+[2016.12.03-19.51.48:463][440]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.236664
+[2016.12.03-19.51.48:479][441]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.252793
+[2016.12.03-19.51.48:495][442]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.268923
+[2016.12.03-19.51.48:511][443]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.285052
+[2016.12.03-19.51.48:527][444]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.301182
+[2016.12.03-19.51.48:543][445]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.317311
+[2016.12.03-19.51.48:560][446]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.333441
+[2016.12.03-19.51.48:576][447]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.34957
+[2016.12.03-19.51.48:592][448]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.3657
+[2016.12.03-19.51.48:608][449]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.381829
+[2016.12.03-19.51.48:624][450]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.397959
+[2016.12.03-19.51.48:640][451]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.414088
+[2016.12.03-19.51.48:656][452]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.430218
+[2016.12.03-19.51.48:673][453]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.446347
+[2016.12.03-19.51.48:689][454]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.462477
+[2016.12.03-19.51.48:705][455]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.478606
+[2016.12.03-19.51.48:721][456]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.494736
+[2016.12.03-19.51.48:737][457]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.510865
+[2016.12.03-19.51.48:753][458]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.526999
+[2016.12.03-19.51.48:769][459]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.543128
+[2016.12.03-19.51.48:786][460]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.559258
+[2016.12.03-19.51.48:801][461]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.575387
+[2016.12.03-19.51.48:818][462]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.591516
+[2016.12.03-19.51.48:834][463]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.607646
+[2016.12.03-19.51.48:850][464]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.623775
+[2016.12.03-19.51.48:866][465]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.639905
+[2016.12.03-19.51.48:883][466]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.656034
+[2016.12.03-19.51.48:898][467]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.672164
+[2016.12.03-19.51.48:915][468]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.688293
+[2016.12.03-19.51.48:931][469]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.704423
+[2016.12.03-19.51.48:947][470]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.720552
+[2016.12.03-19.51.48:963][471]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.736682
+[2016.12.03-19.51.48:979][472]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.752811
+[2016.12.03-19.51.48:995][473]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.768941
+[2016.12.03-19.51.49:011][474]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.78507
+[2016.12.03-19.51.49:027][475]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.8012
+[2016.12.03-19.51.49:044][476]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.817329
+[2016.12.03-19.51.49:060][477]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.833459
+[2016.12.03-19.51.49:076][478]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.849588
+[2016.12.03-19.51.49:092][479]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.865718
+[2016.12.03-19.51.49:108][480]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.881847
+[2016.12.03-19.51.49:124][481]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.897977
+[2016.12.03-19.51.49:141][482]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.914106
+[2016.12.03-19.51.49:157][483]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.930236
+[2016.12.03-19.51.49:173][484]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.946365
+[2016.12.03-19.51.49:189][485]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.962495
+[2016.12.03-19.51.49:205][486]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.978624
+[2016.12.03-19.51.49:221][487]LogBlueprintUserMessages: [MissileCommandGM_C_0] 7.994754
+[2016.12.03-19.51.49:238][488]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.010883
+[2016.12.03-19.51.49:254][489]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.027013
+[2016.12.03-19.51.49:270][490]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.043142
+[2016.12.03-19.51.49:286][491]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.059272
+[2016.12.03-19.51.49:301][492]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.075401
+[2016.12.03-19.51.49:318][493]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.091531
+[2016.12.03-19.51.49:334][494]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.10766
+[2016.12.03-19.51.49:350][495]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.12379
+[2016.12.03-19.51.49:366][496]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.139919
+[2016.12.03-19.51.49:382][497]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.156049
+[2016.12.03-19.51.49:398][498]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.172178
+[2016.12.03-19.51.49:415][499]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.188308
+[2016.12.03-19.51.49:431][500]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.204437
+[2016.12.03-19.51.49:447][501]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.220567
+[2016.12.03-19.51.49:463][502]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.236696
+[2016.12.03-19.51.49:479][503]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.252826
+[2016.12.03-19.51.49:495][504]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.268955
+[2016.12.03-19.51.49:511][505]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.285085
+[2016.12.03-19.51.49:527][506]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.301214
+[2016.12.03-19.51.49:544][507]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.317344
+[2016.12.03-19.51.49:560][508]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.333473
+[2016.12.03-19.51.49:576][509]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.349603
+[2016.12.03-19.51.49:592][510]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.365732
+[2016.12.03-19.51.49:608][511]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.381862
+[2016.12.03-19.51.49:624][512]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.397991
+[2016.12.03-19.51.49:641][513]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.414121
+[2016.12.03-19.51.49:657][514]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.43025
+[2016.12.03-19.51.49:673][515]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.44638
+[2016.12.03-19.51.49:689][516]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.462509
+[2016.12.03-19.51.49:705][517]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.478639
+[2016.12.03-19.51.49:722][518]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.494768
+[2016.12.03-19.51.49:738][519]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.510898
+[2016.12.03-19.51.49:754][520]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.527027
+[2016.12.03-19.51.49:770][521]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.543157
+[2016.12.03-19.51.49:786][522]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.559286
+[2016.12.03-19.51.49:802][523]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.575416
+[2016.12.03-19.51.49:818][524]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.591545
+[2016.12.03-19.51.49:834][525]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.607675
+[2016.12.03-19.51.49:850][526]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.623804
+[2016.12.03-19.51.49:866][527]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.639934
+[2016.12.03-19.51.49:883][528]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.656063
+[2016.12.03-19.51.49:899][529]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.672193
+[2016.12.03-19.51.49:915][530]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.688322
+[2016.12.03-19.51.49:931][531]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.704452
+[2016.12.03-19.51.49:947][532]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.720581
+[2016.12.03-19.51.49:963][533]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.736711
+[2016.12.03-19.51.49:979][534]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.75284
+[2016.12.03-19.51.49:995][535]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.76897
+[2016.12.03-19.51.50:011][536]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.785099
+[2016.12.03-19.51.50:028][537]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.801229
+[2016.12.03-19.51.50:044][538]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.817358
+[2016.12.03-19.51.50:060][539]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.833488
+[2016.12.03-19.51.50:076][540]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.849617
+[2016.12.03-19.51.50:092][541]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.865746
+[2016.12.03-19.51.50:108][542]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.881876
+[2016.12.03-19.51.50:124][543]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.898005
+[2016.12.03-19.51.50:141][544]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.914135
+[2016.12.03-19.51.50:157][545]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.930264
+[2016.12.03-19.51.50:173][546]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.946394
+[2016.12.03-19.51.50:189][547]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.962523
+[2016.12.03-19.51.50:205][548]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.978653
+[2016.12.03-19.51.50:221][549]LogBlueprintUserMessages: [MissileCommandGM_C_0] 8.994782
+[2016.12.03-19.51.50:237][550]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.010912
+[2016.12.03-19.51.50:254][551]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.027041
+[2016.12.03-19.51.50:269][552]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.043171
+[2016.12.03-19.51.50:285][553]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.0593
+[2016.12.03-19.51.50:302][554]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.07543
+[2016.12.03-19.51.50:318][555]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.091559
+[2016.12.03-19.51.50:334][556]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.107689
+[2016.12.03-19.51.50:350][557]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.123818
+[2016.12.03-19.51.50:366][558]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.139948
+[2016.12.03-19.51.50:383][559]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.156077
+[2016.12.03-19.51.50:399][560]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.172207
+[2016.12.03-19.51.50:415][561]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.188336
+[2016.12.03-19.51.50:431][562]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.204466
+[2016.12.03-19.51.50:447][563]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.220595
+[2016.12.03-19.51.50:463][564]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.236725
+[2016.12.03-19.51.50:480][565]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.252854
+[2016.12.03-19.51.50:496][566]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.268984
+[2016.12.03-19.51.50:512][567]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.285113
+[2016.12.03-19.51.50:528][568]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.301243
+[2016.12.03-19.51.50:544][569]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.317372
+[2016.12.03-19.51.50:560][570]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.333502
+[2016.12.03-19.51.50:576][571]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.349631
+[2016.12.03-19.51.50:592][572]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.365761
+[2016.12.03-19.51.50:608][573]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.38189
+[2016.12.03-19.51.50:625][574]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.39802
+[2016.12.03-19.51.50:641][575]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.414149
+[2016.12.03-19.51.50:657][576]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.430279
+[2016.12.03-19.51.50:673][577]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.446408
+[2016.12.03-19.51.50:689][578]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.462538
+[2016.12.03-19.51.50:705][579]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.478667
+[2016.12.03-19.51.50:722][580]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.494797
+[2016.12.03-19.51.50:738][581]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.510926
+[2016.12.03-19.51.50:754][582]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.527056
+[2016.12.03-19.51.50:770][583]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.543185
+[2016.12.03-19.51.50:786][584]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.559315
+[2016.12.03-19.51.50:802][585]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.575444
+[2016.12.03-19.51.50:818][586]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.591574
+[2016.12.03-19.51.50:834][587]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.607703
+[2016.12.03-19.51.50:850][588]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.623833
+[2016.12.03-19.51.50:866][589]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.639962
+[2016.12.03-19.51.50:882][590]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.656092
+[2016.12.03-19.51.50:899][591]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.672221
+[2016.12.03-19.51.50:915][592]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.688351
+[2016.12.03-19.51.50:931][593]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.70448
+[2016.12.03-19.51.50:947][594]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.72061
+[2016.12.03-19.51.50:963][595]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.736739
+[2016.12.03-19.51.50:979][596]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.752869
+[2016.12.03-19.51.50:995][597]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.768998
+[2016.12.03-19.51.51:012][598]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.785128
+[2016.12.03-19.51.51:028][599]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.801257
+[2016.12.03-19.51.51:044][600]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.817387
+[2016.12.03-19.51.51:060][601]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.833516
+[2016.12.03-19.51.51:076][602]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.849646
+[2016.12.03-19.51.51:092][603]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.865775
+[2016.12.03-19.51.51:108][604]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.881905
+[2016.12.03-19.51.51:124][605]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.898034
+[2016.12.03-19.51.51:140][606]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.914164
+[2016.12.03-19.51.51:157][607]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.930293
+[2016.12.03-19.51.51:173][608]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.946423
+[2016.12.03-19.51.51:189][609]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.962584
+[2016.12.03-19.51.51:205][610]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.978713
+[2016.12.03-19.51.51:221][611]LogBlueprintUserMessages: [MissileCommandGM_C_0] 9.994843
+[2016.12.03-19.51.51:237][612]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.010972
+[2016.12.03-19.51.51:253][613]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.027102
+[2016.12.03-19.51.51:270][614]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.043231
+[2016.12.03-19.51.51:286][615]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.059361
+[2016.12.03-19.51.51:302][616]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.07549
+[2016.12.03-19.51.51:318][617]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.091619
+[2016.12.03-19.51.51:334][618]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.107749
+[2016.12.03-19.51.51:351][619]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.123878
+[2016.12.03-19.51.51:367][620]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.140008
+[2016.12.03-19.51.51:383][621]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.156137
+[2016.12.03-19.51.51:399][622]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.172267
+[2016.12.03-19.51.51:415][623]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.188396
+[2016.12.03-19.51.51:431][624]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.204526
+[2016.12.03-19.51.51:447][625]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.220655
+[2016.12.03-19.51.51:464][626]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.236785
+[2016.12.03-19.51.51:480][627]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.252914
+[2016.12.03-19.51.51:496][628]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.269044
+[2016.12.03-19.51.51:512][629]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.285173
+[2016.12.03-19.51.51:528][630]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.301303
+[2016.12.03-19.51.51:544][631]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.317432
+[2016.12.03-19.51.51:560][632]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.333562
+[2016.12.03-19.51.51:576][633]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.349691
+[2016.12.03-19.51.51:592][634]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.365821
+[2016.12.03-19.51.51:608][635]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.38195
+[2016.12.03-19.51.51:624][636]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.39808
+[2016.12.03-19.51.51:640][637]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.414209
+[2016.12.03-19.51.51:657][638]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.430339
+[2016.12.03-19.51.51:673][639]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.446468
+[2016.12.03-19.51.51:689][640]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.462598
+[2016.12.03-19.51.51:705][641]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.478727
+[2016.12.03-19.51.51:721][642]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.494857
+[2016.12.03-19.51.51:737][643]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.510986
+[2016.12.03-19.51.51:754][644]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.527116
+[2016.12.03-19.51.51:770][645]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.543245
+[2016.12.03-19.51.51:786][646]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.559375
+[2016.12.03-19.51.51:802][647]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.575504
+[2016.12.03-19.51.51:818][648]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.591634
+[2016.12.03-19.51.51:834][649]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.607763
+[2016.12.03-19.51.51:850][650]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.623893
+[2016.12.03-19.51.51:866][651]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.640022
+[2016.12.03-19.51.51:883][652]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.656152
+[2016.12.03-19.51.51:899][653]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.672281
+[2016.12.03-19.51.51:915][654]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.688411
+[2016.12.03-19.51.51:931][655]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.70454
+[2016.12.03-19.51.51:947][656]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.72067
+[2016.12.03-19.51.51:963][657]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.736799
+[2016.12.03-19.51.51:979][658]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.752929
+[2016.12.03-19.51.51:995][659]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.769058
+[2016.12.03-19.51.52:012][660]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.785188
+[2016.12.03-19.51.52:028][661]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.801317
+[2016.12.03-19.51.52:044][662]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.817447
+[2016.12.03-19.51.52:060][663]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.833576
+[2016.12.03-19.51.52:076][664]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.849706
+[2016.12.03-19.51.52:092][665]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.865835
+[2016.12.03-19.51.52:108][666]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.881965
+[2016.12.03-19.51.52:125][667]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.898094
+[2016.12.03-19.51.52:141][668]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.914224
+[2016.12.03-19.51.52:157][669]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.930353
+[2016.12.03-19.51.52:173][670]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.946483
+[2016.12.03-19.51.52:189][671]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.962612
+[2016.12.03-19.51.52:205][672]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.978742
+[2016.12.03-19.51.52:221][673]LogBlueprintUserMessages: [MissileCommandGM_C_0] 10.994871
+[2016.12.03-19.51.52:237][674]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.011001
+[2016.12.03-19.51.52:254][675]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.02713
+[2016.12.03-19.51.52:270][676]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.04326
+[2016.12.03-19.51.52:285][677]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.059389
+[2016.12.03-19.51.52:302][678]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.075519
+[2016.12.03-19.51.52:318][679]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.091648
+[2016.12.03-19.51.52:334][680]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.107778
+[2016.12.03-19.51.52:350][681]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.123907
+[2016.12.03-19.51.52:366][682]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.140037
+[2016.12.03-19.51.52:382][683]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.156166
+[2016.12.03-19.51.52:399][684]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.172296
+[2016.12.03-19.51.52:415][685]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.188425
+[2016.12.03-19.51.52:431][686]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.204555
+[2016.12.03-19.51.52:447][687]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.220684
+[2016.12.03-19.51.52:463][688]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.236814
+[2016.12.03-19.51.52:479][689]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.252943
+[2016.12.03-19.51.52:496][690]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.269073
+[2016.12.03-19.51.52:512][691]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.285202
+[2016.12.03-19.51.52:528][692]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.301332
+[2016.12.03-19.51.52:544][693]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.317461
+[2016.12.03-19.51.52:560][694]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.333591
+[2016.12.03-19.51.52:576][695]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.34972
+[2016.12.03-19.51.52:592][696]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.365849
+[2016.12.03-19.51.52:609][697]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.381979
+[2016.12.03-19.51.52:625][698]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.398108
+[2016.12.03-19.51.52:641][699]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.414238
+[2016.12.03-19.51.52:657][700]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.430367
+[2016.12.03-19.51.52:673][701]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.446497
+[2016.12.03-19.51.52:689][702]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.462626
+[2016.12.03-19.51.52:705][703]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.478756
+[2016.12.03-19.51.52:721][704]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.494885
+[2016.12.03-19.51.52:737][705]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.511015
+[2016.12.03-19.51.52:753][706]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.527144
+[2016.12.03-19.51.52:770][707]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.543274
+[2016.12.03-19.51.52:786][708]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.559403
+[2016.12.03-19.51.52:802][709]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.575533
+[2016.12.03-19.51.52:818][710]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.591662
+[2016.12.03-19.51.52:834][711]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.607792
+[2016.12.03-19.51.52:850][712]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.623921
+[2016.12.03-19.51.52:867][713]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.640051
+[2016.12.03-19.51.52:883][714]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.65618
+[2016.12.03-19.51.52:899][715]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.67231
+[2016.12.03-19.51.52:915][716]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.688439
+[2016.12.03-19.51.52:931][717]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.704569
+[2016.12.03-19.51.52:947][718]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.720698
+[2016.12.03-19.51.52:963][719]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.736828
+[2016.12.03-19.51.52:979][720]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.752957
+[2016.12.03-19.51.52:996][721]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.769087
+[2016.12.03-19.51.53:012][722]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.785216
+[2016.12.03-19.51.53:028][723]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.801346
+[2016.12.03-19.51.53:044][724]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.817475
+[2016.12.03-19.51.53:061][725]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.833605
+[2016.12.03-19.51.53:076][726]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.849734
+[2016.12.03-19.51.53:093][727]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.865864
+[2016.12.03-19.51.53:109][728]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.881993
+[2016.12.03-19.51.53:125][729]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.898123
+[2016.12.03-19.51.53:141][730]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.914252
+[2016.12.03-19.51.53:157][731]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.930382
+[2016.12.03-19.51.53:173][732]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.946511
+[2016.12.03-19.51.53:189][733]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.962641
+[2016.12.03-19.51.53:205][734]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.97877
+[2016.12.03-19.51.53:222][735]LogBlueprintUserMessages: [MissileCommandGM_C_0] 11.9949
+[2016.12.03-19.51.53:238][736]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.011029
+[2016.12.03-19.51.53:254][737]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.027159
+[2016.12.03-19.51.53:270][738]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.043288
+[2016.12.03-19.51.53:286][739]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.059418
+[2016.12.03-19.51.53:302][740]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.075547
+[2016.12.03-19.51.53:318][741]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.091677
+[2016.12.03-19.51.53:334][742]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.107806
+[2016.12.03-19.51.53:350][743]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.123936
+[2016.12.03-19.51.53:366][744]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.140065
+[2016.12.03-19.51.53:382][745]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.156195
+[2016.12.03-19.51.53:399][746]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.172324
+[2016.12.03-19.51.53:415][747]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.188454
+[2016.12.03-19.51.53:431][748]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.204583
+[2016.12.03-19.51.53:447][749]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.220713
+[2016.12.03-19.51.53:463][750]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.236842
+[2016.12.03-19.51.53:479][751]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.252972
+[2016.12.03-19.51.53:495][752]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.269101
+[2016.12.03-19.51.53:512][753]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.285231
+[2016.12.03-19.51.53:528][754]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.30136
+[2016.12.03-19.51.53:544][755]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.31749
+[2016.12.03-19.51.53:560][756]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.333619
+[2016.12.03-19.51.53:576][757]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.349749
+[2016.12.03-19.51.53:592][758]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.365878
+[2016.12.03-19.51.53:608][759]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.382008
+[2016.12.03-19.51.53:625][760]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.398137
+[2016.12.03-19.51.53:641][761]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.414267
+[2016.12.03-19.51.53:657][762]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.430396
+[2016.12.03-19.51.53:673][763]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.446526
+[2016.12.03-19.51.53:689][764]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.462655
+[2016.12.03-19.51.53:705][765]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.478785
+[2016.12.03-19.51.53:721][766]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.494914
+[2016.12.03-19.51.53:737][767]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.511044
+[2016.12.03-19.51.53:754][768]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.527173
+[2016.12.03-19.51.53:770][769]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.543303
+[2016.12.03-19.51.53:786][770]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.559432
+[2016.12.03-19.51.53:802][771]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.575562
+[2016.12.03-19.51.53:818][772]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.591691
+[2016.12.03-19.51.53:834][773]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.607821
+[2016.12.03-19.51.53:850][774]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.62395
+[2016.12.03-19.51.53:866][775]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.640079
+[2016.12.03-19.51.53:882][776]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.656209
+[2016.12.03-19.51.53:899][777]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.672338
+[2016.12.03-19.51.53:915][778]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.688468
+[2016.12.03-19.51.53:931][779]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.704597
+[2016.12.03-19.51.53:947][780]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.720727
+[2016.12.03-19.51.53:964][781]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.736856
+[2016.12.03-19.51.53:980][782]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.752986
+[2016.12.03-19.51.53:996][783]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.769115
+[2016.12.03-19.51.54:012][784]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.785245
+[2016.12.03-19.51.54:028][785]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.801374
+[2016.12.03-19.51.54:044][786]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.817504
+[2016.12.03-19.51.54:060][787]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.833633
+[2016.12.03-19.51.54:077][788]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.849763
+[2016.12.03-19.51.54:092][789]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.865892
+[2016.12.03-19.51.54:108][790]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.882022
+[2016.12.03-19.51.54:124][791]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.898151
+[2016.12.03-19.51.54:141][792]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.914281
+[2016.12.03-19.51.54:157][793]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.93041
+[2016.12.03-19.51.54:173][794]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.94654
+[2016.12.03-19.51.54:189][795]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.962669
+[2016.12.03-19.51.54:205][796]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.978799
+[2016.12.03-19.51.54:221][797]LogBlueprintUserMessages: [MissileCommandGM_C_0] 12.994928
+[2016.12.03-19.51.54:237][798]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.011058
+[2016.12.03-19.51.54:253][799]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.027187
+[2016.12.03-19.51.54:270][800]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.043317
+[2016.12.03-19.51.54:286][801]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.059446
+[2016.12.03-19.51.54:302][802]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.075576
+[2016.12.03-19.51.54:318][803]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.091705
+[2016.12.03-19.51.54:334][804]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.107835
+[2016.12.03-19.51.54:350][805]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.123964
+[2016.12.03-19.51.54:367][806]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.140094
+[2016.12.03-19.51.54:383][807]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.156223
+[2016.12.03-19.51.54:399][808]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.172353
+[2016.12.03-19.51.54:415][809]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.188482
+[2016.12.03-19.51.54:431][810]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.204612
+[2016.12.03-19.51.54:447][811]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.220741
+[2016.12.03-19.51.54:463][812]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.236871
+[2016.12.03-19.51.54:479][813]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.253
+[2016.12.03-19.51.54:496][814]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.26913
+[2016.12.03-19.51.54:512][815]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.285259
+[2016.12.03-19.51.54:528][816]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.301389
+[2016.12.03-19.51.54:544][817]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.317518
+[2016.12.03-19.51.54:560][818]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.333648
+[2016.12.03-19.51.54:576][819]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.349777
+[2016.12.03-19.51.54:592][820]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.365907
+[2016.12.03-19.51.54:608][821]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.382036
+[2016.12.03-19.51.54:624][822]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.398166
+[2016.12.03-19.51.54:641][823]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.414295
+[2016.12.03-19.51.54:657][824]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.430425
+[2016.12.03-19.51.54:673][825]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.446554
+[2016.12.03-19.51.54:689][826]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.462684
+[2016.12.03-19.51.54:705][827]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.478813
+[2016.12.03-19.51.54:722][828]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.494943
+[2016.12.03-19.51.54:737][829]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.511072
+[2016.12.03-19.51.54:754][830]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.527202
+[2016.12.03-19.51.54:770][831]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.543331
+[2016.12.03-19.51.54:786][832]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.559461
+[2016.12.03-19.51.54:802][833]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.57559
+[2016.12.03-19.51.54:818][834]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.59172
+[2016.12.03-19.51.54:834][835]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.607849
+[2016.12.03-19.51.54:851][836]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.623979
+[2016.12.03-19.51.54:867][837]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.640108
+[2016.12.03-19.51.54:883][838]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.656238
+[2016.12.03-19.51.54:899][839]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.672367
+[2016.12.03-19.51.54:915][840]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.688497
+[2016.12.03-19.51.54:931][841]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.704626
+[2016.12.03-19.51.54:947][842]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.720756
+[2016.12.03-19.51.54:963][843]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.736885
+[2016.12.03-19.51.54:979][844]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.753015
+[2016.12.03-19.51.54:996][845]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.769144
+[2016.12.03-19.51.55:012][846]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.785274
+[2016.12.03-19.51.55:028][847]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.801403
+[2016.12.03-19.51.55:044][848]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.817533
+[2016.12.03-19.51.55:060][849]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.833662
+[2016.12.03-19.51.55:076][850]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.849792
+[2016.12.03-19.51.55:092][851]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.865921
+[2016.12.03-19.51.55:108][852]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.882051
+[2016.12.03-19.51.55:125][853]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.89818
+[2016.12.03-19.51.55:141][854]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.91431
+[2016.12.03-19.51.55:157][855]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.930439
+[2016.12.03-19.51.55:173][856]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.946568
+[2016.12.03-19.51.55:189][857]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.962698
+[2016.12.03-19.51.55:205][858]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.978827
+[2016.12.03-19.51.55:221][859]LogBlueprintUserMessages: [MissileCommandGM_C_0] 13.994957
+[2016.12.03-19.51.55:237][860]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.011086
+[2016.12.03-19.51.55:254][861]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.027216
+[2016.12.03-19.51.55:270][862]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.043345
+[2016.12.03-19.51.55:286][863]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.059475
+[2016.12.03-19.51.55:302][864]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.075604
+[2016.12.03-19.51.55:318][865]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.091734
+[2016.12.03-19.51.55:334][866]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.107863
+[2016.12.03-19.51.55:350][867]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.123993
+[2016.12.03-19.51.55:366][868]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.140122
+[2016.12.03-19.51.55:383][869]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.156252
+[2016.12.03-19.51.55:399][870]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.172381
+[2016.12.03-19.51.55:415][871]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.188511
+[2016.12.03-19.51.55:431][872]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.20464
+[2016.12.03-19.51.55:447][873]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.22077
+[2016.12.03-19.51.55:463][874]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.236899
+[2016.12.03-19.51.55:479][875]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.253029
+[2016.12.03-19.51.55:495][876]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.269158
+[2016.12.03-19.51.55:512][877]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.285288
+[2016.12.03-19.51.55:528][878]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.301417
+[2016.12.03-19.51.55:544][879]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.317547
+[2016.12.03-19.51.55:560][880]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.333676
+[2016.12.03-19.51.55:577][881]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.349806
+[2016.12.03-19.51.55:592][882]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.365935
+[2016.12.03-19.51.55:608][883]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.382065
+[2016.12.03-19.51.55:624][884]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.398194
+[2016.12.03-19.51.55:641][885]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.414324
+[2016.12.03-19.51.55:657][886]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.430453
+[2016.12.03-19.51.55:673][887]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.446583
+[2016.12.03-19.51.55:689][888]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.462712
+[2016.12.03-19.51.55:705][889]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.478842
+[2016.12.03-19.51.55:721][890]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.494971
+[2016.12.03-19.51.55:737][891]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.511101
+[2016.12.03-19.51.55:753][892]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.52723
+[2016.12.03-19.51.55:769][893]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.54336
+[2016.12.03-19.51.55:786][894]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.559489
+[2016.12.03-19.51.55:802][895]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.575619
+[2016.12.03-19.51.55:818][896]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.591748
+[2016.12.03-19.51.55:834][897]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.607878
+[2016.12.03-19.51.55:850][898]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.624007
+[2016.12.03-19.51.55:866][899]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.640137
+[2016.12.03-19.51.55:883][900]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.656266
+[2016.12.03-19.51.55:899][901]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.672396
+[2016.12.03-19.51.55:915][902]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.688525
+[2016.12.03-19.51.55:931][903]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.704655
+[2016.12.03-19.51.55:947][904]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.720784
+[2016.12.03-19.51.55:963][905]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.736914
+[2016.12.03-19.51.55:979][906]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.753043
+[2016.12.03-19.51.55:995][907]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.769173
+[2016.12.03-19.51.56:012][908]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.785302
+[2016.12.03-19.51.56:028][909]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.801432
+[2016.12.03-19.51.56:044][910]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.817561
+[2016.12.03-19.51.56:060][911]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.833691
+[2016.12.03-19.51.56:076][912]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.84982
+[2016.12.03-19.51.56:092][913]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.86595
+[2016.12.03-19.51.56:108][914]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.882079
+[2016.12.03-19.51.56:125][915]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.898209
+[2016.12.03-19.51.56:141][916]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.914338
+[2016.12.03-19.51.56:157][917]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.930468
+[2016.12.03-19.51.56:173][918]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.946597
+[2016.12.03-19.51.56:189][919]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.962727
+[2016.12.03-19.51.56:205][920]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.978856
+[2016.12.03-19.51.56:221][921]LogBlueprintUserMessages: [MissileCommandGM_C_0] 14.994986
+[2016.12.03-19.51.56:238][922]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.011115
+[2016.12.03-19.51.56:254][923]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.027245
+[2016.12.03-19.51.56:270][924]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.043374
+[2016.12.03-19.51.56:286][925]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.059504
+[2016.12.03-19.51.56:302][926]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.075633
+[2016.12.03-19.51.56:318][927]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.091763
+[2016.12.03-19.51.56:334][928]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.107892
+[2016.12.03-19.51.56:350][929]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.124022
+[2016.12.03-19.51.56:366][930]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.140151
+[2016.12.03-19.51.56:383][931]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.156281
+[2016.12.03-19.51.56:399][932]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.17241
+[2016.12.03-19.51.56:415][933]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.18854
+[2016.12.03-19.51.56:431][934]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.204669
+[2016.12.03-19.51.56:447][935]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.220798
+[2016.12.03-19.51.56:463][936]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.236928
+[2016.12.03-19.51.56:479][937]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.253057
+[2016.12.03-19.51.56:496][938]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.269187
+[2016.12.03-19.51.56:512][939]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.285316
+[2016.12.03-19.51.56:528][940]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.301446
+[2016.12.03-19.51.56:544][941]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.317575
+[2016.12.03-19.51.56:560][942]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.333705
+[2016.12.03-19.51.56:576][943]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.349834
+[2016.12.03-19.51.56:592][944]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.365964
+[2016.12.03-19.51.56:608][945]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.382093
+[2016.12.03-19.51.56:624][946]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.398223
+[2016.12.03-19.51.56:641][947]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.414352
+[2016.12.03-19.51.56:657][948]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.430482
+[2016.12.03-19.51.56:673][949]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.446611
+[2016.12.03-19.51.56:689][950]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.462741
+[2016.12.03-19.51.56:705][951]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.47887
+[2016.12.03-19.51.56:721][952]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.495
+[2016.12.03-19.51.56:738][953]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.511129
+[2016.12.03-19.51.56:754][954]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.527259
+[2016.12.03-19.51.56:770][955]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.543388
+[2016.12.03-19.51.56:786][956]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.559518
+[2016.12.03-19.51.56:802][957]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.575647
+[2016.12.03-19.51.56:818][958]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.591777
+[2016.12.03-19.51.56:834][959]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.607906
+[2016.12.03-19.51.56:850][960]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.624036
+[2016.12.03-19.51.56:868][961]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.640165
+[2016.12.03-19.51.56:882][962]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.656295
+[2016.12.03-19.51.56:899][963]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.672424
+[2016.12.03-19.51.56:915][964]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.688554
+[2016.12.03-19.51.56:931][965]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.704683
+[2016.12.03-19.51.56:947][966]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.720813
+[2016.12.03-19.51.56:963][967]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.736942
+[2016.12.03-19.51.56:979][968]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.753072
+[2016.12.03-19.51.56:995][969]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.769201
+[2016.12.03-19.51.57:012][970]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.785331
+[2016.12.03-19.51.57:028][971]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.80146
+[2016.12.03-19.51.57:044][972]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.81759
+[2016.12.03-19.51.57:060][973]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.833719
+[2016.12.03-19.51.57:076][974]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.849849
+[2016.12.03-19.51.57:092][975]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.865978
+[2016.12.03-19.51.57:108][976]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.882108
+[2016.12.03-19.51.57:125][977]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.898237
+[2016.12.03-19.51.57:141][978]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.914367
+[2016.12.03-19.51.57:157][979]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.930496
+[2016.12.03-19.51.57:173][980]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.946626
+[2016.12.03-19.51.57:189][981]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.962755
+[2016.12.03-19.51.57:205][982]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.978885
+[2016.12.03-19.51.57:221][983]LogBlueprintUserMessages: [MissileCommandGM_C_0] 15.995014
+[2016.12.03-19.51.57:237][984]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.011143
+[2016.12.03-19.51.57:253][985]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.027271
+[2016.12.03-19.51.57:270][986]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.0434
+[2016.12.03-19.51.57:286][987]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.059528
+[2016.12.03-19.51.57:302][988]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.075657
+[2016.12.03-19.51.57:318][989]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.091785
+[2016.12.03-19.51.57:334][990]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.107914
+[2016.12.03-19.51.57:350][991]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.124044
+[2016.12.03-19.51.57:366][992]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.140173
+[2016.12.03-19.51.57:383][993]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.156301
+[2016.12.03-19.51.57:399][994]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.17243
+[2016.12.03-19.51.57:415][995]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.18856
+[2016.12.03-19.51.57:431][996]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.204697
+[2016.12.03-19.51.57:447][997]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.220825
+[2016.12.03-19.51.57:463][998]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.236954
+[2016.12.03-19.51.57:479][999]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.253082
+[2016.12.03-19.51.57:495][  0]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.269211
+[2016.12.03-19.51.57:512][  1]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.285339
+[2016.12.03-19.51.57:528][  2]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.301468
+[2016.12.03-19.51.57:544][  3]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.317596
+[2016.12.03-19.51.57:560][  4]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.333725
+[2016.12.03-19.51.57:576][  5]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.349854
+[2016.12.03-19.51.57:592][  6]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.365982
+[2016.12.03-19.51.57:608][  7]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.382111
+[2016.12.03-19.51.57:625][  8]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.398239
+[2016.12.03-19.51.57:641][  9]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.414368
+[2016.12.03-19.51.57:657][ 10]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.430496
+[2016.12.03-19.51.57:673][ 11]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.446625
+[2016.12.03-19.51.57:689][ 12]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.462753
+[2016.12.03-19.51.57:705][ 13]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.478882
+[2016.12.03-19.51.57:721][ 14]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.49501
+[2016.12.03-19.51.57:737][ 15]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.511139
+[2016.12.03-19.51.57:753][ 16]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.527267
+[2016.12.03-19.51.57:770][ 17]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.543396
+[2016.12.03-19.51.57:786][ 18]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.559525
+[2016.12.03-19.51.57:802][ 19]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.575653
+[2016.12.03-19.51.57:818][ 20]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.591782
+[2016.12.03-19.51.57:834][ 21]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.60791
+[2016.12.03-19.51.57:850][ 22]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.624039
+[2016.12.03-19.51.57:866][ 23]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.640167
+[2016.12.03-19.51.57:883][ 24]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.656296
+[2016.12.03-19.51.57:899][ 25]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.672424
+[2016.12.03-19.51.57:915][ 26]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.688553
+[2016.12.03-19.51.57:931][ 27]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.704681
+[2016.12.03-19.51.57:947][ 28]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.72081
+[2016.12.03-19.51.57:963][ 29]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.736938
+[2016.12.03-19.51.57:979][ 30]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.753067
+[2016.12.03-19.51.57:995][ 31]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.769196
+[2016.12.03-19.51.58:012][ 32]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.785324
+[2016.12.03-19.51.58:028][ 33]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.801453
+[2016.12.03-19.51.58:044][ 34]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.817581
+[2016.12.03-19.51.58:060][ 35]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.83371
+[2016.12.03-19.51.58:076][ 36]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.849838
+[2016.12.03-19.51.58:092][ 37]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.865967
+[2016.12.03-19.51.58:108][ 38]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.882095
+[2016.12.03-19.51.58:125][ 39]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.898224
+[2016.12.03-19.51.58:141][ 40]LogBlueprintUserMessages: [MissileCommandGM_C_0] 16.914352
+[2016.12.03-19.51.58:182][ 41]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.03-19.51.58:185][ 41]LogEngine: All Windows Closed
+[2016.12.03-19.51.58:185][ 41]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.12.03-19.51.59:138][ 42]LogExit: Preparing to exit.
+[2016.12.03-19.51.59:221][ 42]LogExit: Game engine shut down
+[2016.12.03-19.51.59:222][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027A39B7DE40
+[2016.12.03-19.51.59:338][ 42]LogExit: Object subsystem successfully closed.
+[2016.12.03-19.51.59:355][ 42]LogD3D11RHI: Shutdown
+[2016.12.03-19.51.59:355][ 42]LogD3D11RHI: CleanupD3DDevice
+[2016.12.03-19.51.59:393][ 42]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.03-19.51.59:404][ 42]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (115)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module AutomationWorker (113)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module CharacterAI (112)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module AITestSuite (111)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module GameplayDebugger (110)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2016.12.03-19.52.00:274][ 42]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module OculusRift (100)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2016.12.03-19.52.00:361][ 42]LogModuleManager: Shutting down and abandoning module LeapMotionController (98)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.12.03-19.52.00:403][ 42]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.12.03-19.52.00:405][ 42]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.12.03-19.52.00:407][ 42]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.12.03-19.52.00:622][ 42]LogDerivedDataCache: Shutdown
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.12.03-19.52.00:622][ 42]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.03-19.52.00:623][ 42]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.03-19.52.00:623][ 42]LogExit: Exiting.
+[2016.12.03-19.52.00:624][ 42]Log file closed, 12/03/16 14:52:00

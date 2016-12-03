@@ -1,0 +1,1074 @@
+﻿[2016.12.03-19.20.05:739][  0]Log file open, 12/03/16 14:20:05
+[2016.12.03-19.20.05:739][  0]LogInit:Display: Running engine for game: MissileCommand2
+[2016.12.03-19.20.05:739][  0]LogInit:Display: RandInit(-298394242) SRandInit(-298394242).
+[2016.12.03-19.20.05:739][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.12.03-19.20.05:739][  0]LogStats: Stats thread started at 0.084748
+[2016.12.03-19.20.05:739][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.12.03-19.20.05:739][  0]LogInit: API Version: 2672455
+[2016.12.03-19.20.05:739][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.12.03-19.20.05:739][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.12.03-19.20.05:739][  0]LogInit: Build Configuration: Development
+[2016.12.03-19.20.05:739][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.12.03-19.20.05:739][  0]LogInit: Command line:  /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.12.03-19.20.05:739][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.12.03-19.20.05:739][  0]LogInit: Rocket: 1
+[2016.12.03-19.20.05:757][  0]LogInit: Using libcurl 7.41.0
+[2016.12.03-19.20.05:757][  0]LogInit:  - built for x86_64-pc-win32
+[2016.12.03-19.20.05:757][  0]LogInit:  - supports SSL with WinSSL
+[2016.12.03-19.20.05:757][  0]LogInit:  - other features:
+[2016.12.03-19.20.05:757][  0]LogInit:      CURL_VERSION_SSL
+[2016.12.03-19.20.05:757][  0]LogInit:      CURL_VERSION_IPV6
+[2016.12.03-19.20.05:757][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.12.03-19.20.05:757][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.12.03-19.20.05:757][  0]LogInit:      CURL_VERSION_IDN
+[2016.12.03-19.20.05:757][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.12.03-19.20.05:757][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.12.03-19.20.05:757][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.12.03-19.20.05:757][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.12.03-19.20.05:757][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.12.03-19.20.05:765][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.12.03-19.20.05:771][  0]LogInit: Object subsystem initialized
+[2016.12.03-19.20.05:772][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.03-19.20.05:772][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.03-19.20.05:775][  0]LogInit: Computer: MSI
+[2016.12.03-19.20.05:775][  0]LogInit: User: jsoba
+[2016.12.03-19.20.05:775][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.12.03-19.20.05:775][  0]LogInit: High frequency timer resolution =2.630620 MHz
+[2016.12.03-19.20.05:775][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.03-19.20.05:775][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.03-19.20.05:775][  0]LogMemory: Process Physical Memory: 54.77 MB used, 54.77 MB peak
+[2016.12.03-19.20.05:775][  0]LogMemory: Process Virtual Memory: 55.49 MB used, 55.49 MB peak
+[2016.12.03-19.20.05:775][  0]LogMemory: Physical Memory: 6604.09 MB used, 16299.20 MB total
+[2016.12.03-19.20.05:775][  0]LogMemory: Virtual Memory: 369.84 MB used, 134217728.00 MB total
+[2016.12.03-19.20.06:247][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.03-19.20.06:874][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M        (Feature Level 11_0)
+[2016.12.03-19.20.06:874][  0]LogD3D11RHI: Adapter has 2991MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 1 output[s]
+[2016.12.03-19.20.06:878][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5600 (Feature Level 11_0)
+[2016.12.03-19.20.06:879][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.03-19.20.06:880][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.12.03-19.20.06:880][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.03-19.20.06:880][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.12.03-19.20.06:887][  0]LogD3D11RHI: !Direct3DDevice
+[2016.12.03-19.20.06:887][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.03-19.20.06:905][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.03-19.20.06:918][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Intermediate/Shaders/WorkingDirectory/10376/).
+[2016.12.03-19.20.06:919][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Intermediate/Shaders/tmp/CE9BCF2E497AB76A6138E0A006154669/'.
+[2016.12.03-19.20.06:919][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.03-19.20.07:991][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.03-19.20.07:997][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.03-19.20.08:002][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.03-19.20.08:008][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.03-19.20.08:013][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.03-19.20.08:017][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.03-19.20.08:021][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.03-19.20.08:024][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.03-19.20.08:028][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.03-19.20.08:032][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.03-19.20.08:037][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.03-19.20.08:041][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.03-19.20.08:041][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.03-19.20.08:060][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.03-19.20.08:063][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.03-19.20.08:067][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.03-19.20.08:071][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.03-19.20.08:071][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.03-19.20.08:169][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.03-19.20.08:217][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.12.03-19.20.08:217][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.12.03-19.20.08:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.03-19.20.08:217][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.03-19.20.08:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.03-19.20.08:217][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.03-19.20.08:350][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.03-19.20.08:362][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsoba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.03-19.20.08:518][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.03-19.20.08:521][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.12.03-19.20.08:628][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.03-19.20.08:628][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.03-19.20.08:827][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.03-19.20.09:023][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Content/Movies/Default_Startup.mp4
+[2016.12.03-19.20.09:132][  0]SourceControl: Info Source control is disabled
+[2016.12.03-19.20.09:132][  0]SourceControl: Info Source control is disabled
+[2016.12.03-19.20.09:146][  0]SourceControl: Info Source control is disabled
+[2016.12.03-19.20.09:261][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.03-19.20.09:354][  0]LogObj: 27669 objects as part of root set at end of initial load.
+[2016.12.03-19.20.09:354][  0]LogUObjectAllocator: 5775696 out of 0 bytes used by permanent object pool.
+[2016.12.03-19.20.09:406][  0]LogEngine: Initializing Engine...
+[2016.12.03-19.20.09:409][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.12.03-19.20.09:409][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.03-19.20.09:508][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.03-19.20.09:547][  0]LogInit: FAudioDevice initialized.
+[2016.12.03-19.20.09:552][  0]LogInit: Texture streaming: Enabled
+[2016.12.03-19.20.09:611][  0]LogNet: Browse: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2016.12.03-19.20.09:612][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2016.12.03-19.20.09:623][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022CF21D8FE0
+[2016.12.03-19.20.09:633][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.03-19.20.09:633][  0]LogMemory: Process Physical Memory: 393.74 MB used, 393.74 MB peak
+[2016.12.03-19.20.09:633][  0]LogMemory: Process Virtual Memory: 451.95 MB used, 451.95 MB peak
+[2016.12.03-19.20.09:633][  0]LogMemory: Physical Memory: 6895.27 MB used, 16299.20 MB total
+[2016.12.03-19.20.09:633][  0]LogMemory: Virtual Memory: 1016.90 MB used, 134217728.00 MB total
+[2016.12.03-19.20.09:633][  0]LogMemory: 
+[2016.12.03-19.20.09:633][  0]Allocator Stats for TBB: (not implemented)
+[2016.12.03-19.20.09:719][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.03-19.20.09:722][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.32] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.09:722][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.32] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:722][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.32] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:749][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.03-19.20.09:752][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.35] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 6 ms]
+[2016.12.03-19.20.09:752][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.35] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:752][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.35] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:779][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.03-19.20.09:782][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.38] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.09:782][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.38] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:782][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.38] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:810][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.03-19.20.09:812][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.41] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.09:812][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.41] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:812][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.41] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.09:866][  0]LogLinker:Warning: Asset '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.03-19.20.09:923][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'Arrow': FirstPersonCharacter_C /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2016.12.03-19.20.10:056][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.03-19.20.10:058][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.66] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.10:059][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.66] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:059][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0004.66] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:073][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.03-19.20.10:075][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.67] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.10:075][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.67] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:075][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0004.67] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:086][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.03-19.20.10:089][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.69] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.10:089][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.69] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:089][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0004.69] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:101][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.03-19.20.10:104][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.70] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.10:104][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.70] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:104][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0004.70] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.10:336][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.03-19.20.10:337][  0]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.03-19.20.10:339][  0]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.20.10:342][  0]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.20.10:342][  0]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.20.10:343][  0]LogWorld: Bringing World /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.03-14.20.10
+[2016.12.03-19.20.10:343][  0]LogWorld: Bringing up level for play took: 0.005414
+[2016.12.03-19.20.10:345][  0]LogInit:Display: Game Engine Initialized.
+[2016.12.03-19.20.10:570][  0]LogLoad: Full Startup: 5.17 seconds (BP compile: 0.20 seconds)
+[2016.12.03-19.20.10:586][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.03-19.20.10:630][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.12.03-19.20.10:690][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.12.03-19.20.10:691][  1]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:751][  2]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:767][  3]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:783][  4]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:800][  5]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:816][  6]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:832][  7]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:848][  8]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:864][  9]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:880][ 10]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:896][ 11]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:912][ 12]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:928][ 13]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:944][ 14]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:960][ 15]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:976][ 16]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.10:992][ 17]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:009][ 18]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:025][ 19]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:041][ 20]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:057][ 21]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:073][ 22]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:090][ 23]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:106][ 24]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:122][ 25]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:138][ 26]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:154][ 27]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:170][ 28]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:186][ 29]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:202][ 30]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:218][ 31]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:235][ 32]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:251][ 33]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:267][ 34]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:283][ 35]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:299][ 36]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:315][ 37]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:331][ 38]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:348][ 39]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:364][ 40]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:380][ 41]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:396][ 42]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:412][ 43]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:428][ 44]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:444][ 45]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:460][ 46]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:477][ 47]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:493][ 48]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:509][ 49]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:525][ 50]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:541][ 51]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:557][ 52]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:574][ 53]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:590][ 54]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:606][ 55]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:622][ 56]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:638][ 57]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:654][ 58]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:670][ 59]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:686][ 60]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:703][ 61]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:719][ 62]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:735][ 63]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:751][ 64]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:767][ 65]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:783][ 66]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:799][ 67]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:815][ 68]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:831][ 69]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:848][ 70]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:864][ 71]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:880][ 72]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:896][ 73]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:912][ 74]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:929][ 75]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:944][ 76]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:960][ 77]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:977][ 78]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.11:993][ 79]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:009][ 80]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:025][ 81]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:041][ 82]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:058][ 83]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:074][ 84]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:089][ 85]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:106][ 86]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:122][ 87]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:138][ 88]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:154][ 89]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:170][ 90]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:186][ 91]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:202][ 92]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:219][ 93]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:235][ 94]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:251][ 95]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:267][ 96]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:283][ 97]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:299][ 98]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:315][ 99]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:331][100]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:348][101]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:364][102]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:380][103]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:396][104]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:412][105]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:428][106]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:444][107]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:460][108]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:477][109]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:493][110]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:509][111]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:525][112]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:542][113]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:557][114]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:573][115]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:590][116]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:606][117]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:622][118]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:638][119]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:654][120]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:670][121]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:687][122]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:703][123]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:719][124]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:735][125]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:751][126]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:767][127]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:783][128]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:799][129]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:815][130]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:831][131]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:848][132]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:864][133]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:881][134]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:896][135]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:912][136]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:929][137]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:944][138]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:960][139]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:977][140]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.12:993][141]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:009][142]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:025][143]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:041][144]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:057][145]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:073][146]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:089][147]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:106][148]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:122][149]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:138][150]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:154][151]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:170][152]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:186][153]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:203][154]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:218][155]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:235][156]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:251][157]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:267][158]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:283][159]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:300][160]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:316][161]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:331][162]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:348][163]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:364][164]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:380][165]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:396][166]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:412][167]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:428][168]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:444][169]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:461][170]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:477][171]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:493][172]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:509][173]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:525][174]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:541][175]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:557][176]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:574][177]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:589][178]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:606][179]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:622][180]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:638][181]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:654][182]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:670][183]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:686][184]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:702][185]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:718][186]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:735][187]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:751][188]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:767][189]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:783][190]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:799][191]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:815][192]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:831][193]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:848][194]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:864][195]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:880][196]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:896][197]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:912][198]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:928][199]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:945][200]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:961][201]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:976][202]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.13:993][203]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:009][204]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:025][205]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:041][206]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:057][207]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:073][208]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:091][209]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:106][210]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:122][211]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:138][212]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:154][213]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:170][214]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:187][215]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:203][216]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:218][217]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:234][218]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:251][219]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:267][220]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:283][221]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:300][222]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:316][223]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:332][224]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:348][225]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:364][226]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:380][227]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:396][228]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:412][229]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:428][230]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:444][231]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:460][232]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:476][233]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:493][234]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:509][235]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:525][236]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:541][237]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:558][238]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:574][239]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:590][240]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:606][241]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:622][242]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:638][243]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:654][244]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:671][245]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:687][246]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:703][247]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:719][248]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:735][249]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:751][250]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:767][251]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:783][252]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:799][253]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:816][254]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:831][255]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:848][256]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:864][257]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:880][258]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:897][259]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:913][260]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:929][261]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:945][262]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:961][263]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:977][264]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.14:993][265]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:009][266]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:025][267]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:042][268]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:058][269]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:074][270]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:090][271]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:106][272]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:122][273]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:138][274]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:154][275]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:171][276]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:187][277]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:203][278]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:219][279]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:235][280]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:251][281]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:267][282]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:283][283]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:300][284]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:316][285]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:332][286]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:348][287]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:364][288]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:380][289]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:397][290]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:413][291]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:429][292]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:445][293]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:461][294]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:477][295]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:493][296]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:509][297]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:525][298]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:541][299]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:557][300]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:574][301]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:590][302]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:590][302]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3
+[2016.12.03-19.20.15:606][303]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:622][304]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:638][305]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:654][306]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:670][307]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:686][308]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:703][309]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:718][310]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:735][311]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:751][312]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:767][313]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:783][314]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:800][315]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:815][316]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:831][317]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:848][318]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:864][319]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:880][320]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:896][321]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:912][322]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:928][323]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:945][324]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:960][325]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:977][326]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.15:993][327]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:009][328]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:025][329]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:041][330]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:057][331]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:074][332]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:090][333]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:106][334]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:122][335]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:138][336]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:154][337]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:170][338]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:186][339]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:202][340]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:219][341]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:235][342]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:251][343]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:267][344]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:283][345]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:300][346]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:316][347]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:332][348]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:348][349]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:364][350]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:380][351]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:396][352]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:413][353]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:429][354]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:445][355]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:461][356]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:477][357]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:493][358]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:509][359]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:525][360]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:542][361]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:558][362]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:573][363]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:590][364]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:606][365]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:622][366]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:638][367]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:655][368]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:671][369]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:687][370]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:703][371]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:719][372]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:735][373]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:751][374]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:768][375]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:783][376]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:799][377]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:816][378]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:832][379]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:848][380]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:864][381]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:880][382]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:896][383]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:913][384]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:929][385]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:945][386]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:961][387]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:977][388]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.16:993][389]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:009][390]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:025][391]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:041][392]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:058][393]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:074][394]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:090][395]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:106][396]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:122][397]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:138][398]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:154][399]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:170][400]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:187][401]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:203][402]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:219][403]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:235][404]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:251][405]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:267][406]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:284][407]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:300][408]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:316][409]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:332][410]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:348][411]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:364][412]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:380][413]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:397][414]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:413][415]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:429][416]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:445][417]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:461][418]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:477][419]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:493][420]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:509][421]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:525][422]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:541][423]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:558][424]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:574][425]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:590][426]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:606][427]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:622][428]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:638][429]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:654][430]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:670][431]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:687][432]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:703][433]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:719][434]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:735][435]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:751][436]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:767][437]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:784][438]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:800][439]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:816][440]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:832][441]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:848][442]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:864][443]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:880][444]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:897][445]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:913][446]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:929][447]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:945][448]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:961][449]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:977][450]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.17:993][451]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:009][452]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:025][453]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:041][454]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:057][455]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:074][456]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:090][457]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:106][458]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:122][459]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:138][460]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:154][461]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:170][462]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] false
+[2016.12.03-19.20.18:187][463]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:203][464]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:219][465]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:235][466]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:251][467]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:267][468]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:283][469]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:299][470]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:315][471]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:331][472]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:348][473]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:364][474]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:380][475]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:396][476]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:412][477]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:428][478]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:445][479]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:461][480]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:477][481]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:493][482]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:509][483]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:525][484]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:542][485]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:557][486]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:574][487]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:590][488]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:606][489]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:622][490]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:638][491]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:654][492]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:670][493]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:686][494]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:702][495]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:719][496]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:735][497]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:751][498]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:767][499]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:783][500]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:799][501]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:815][502]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:832][503]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:848][504]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:864][505]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:880][506]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:896][507]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:912][508]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:929][509]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:945][510]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:961][511]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:977][512]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.18:993][513]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:009][514]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:025][515]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:041][516]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:057][517]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:074][518]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:090][519]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:106][520]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:122][521]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:138][522]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:154][523]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:170][524]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:187][525]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:203][526]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:219][527]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:235][528]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:251][529]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:267][530]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:283][531]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:299][532]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:316][533]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:332][534]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:348][535]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:364][536]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:380][537]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:396][538]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:412][539]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:429][540]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:445][541]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:461][542]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:477][543]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:493][544]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:509][545]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:525][546]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:541][547]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:557][548]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:574][549]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:590][550]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:606][551]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:622][552]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:638][553]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:654][554]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:670][555]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:686][556]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:703][557]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:719][558]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:735][559]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:751][560]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:767][561]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:783][562]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:799][563]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:816][564]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:832][565]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:848][566]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:864][567]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:880][568]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:896][569]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:912][570]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:929][571]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:945][572]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:961][573]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:977][574]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.19:993][575]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:009][576]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:025][577]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:041][578]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:057][579]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:074][580]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:090][581]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:106][582]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:122][583]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:138][584]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:154][585]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:170][586]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:186][587]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:203][588]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:219][589]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:235][590]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:251][591]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:267][592]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:283][593]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:300][594]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:315][595]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:332][596]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:348][597]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:364][598]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:380][599]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:396][600]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:413][601]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:429][602]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:445][603]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:461][604]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:477][605]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:493][606]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:509][607]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:525][608]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:541][609]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:558][610]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:574][611]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:590][612]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:590][612]LogBlueprintUserMessages: [MissileCommandGM_C_0] 1
+[2016.12.03-19.20.20:606][613]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:622][614]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:638][615]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:654][616]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:670][617]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:687][618]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:703][619]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:719][620]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:735][621]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:751][622]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:767][623]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:784][624]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:800][625]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:816][626]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:832][627]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:848][628]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:864][629]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:880][630]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:896][631]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:912][632]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:928][633]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:945][634]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:961][635]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:977][636]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.20:993][637]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:009][638]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:025][639]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:042][640]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:057][641]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:073][642]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:090][643]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:106][644]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:122][645]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:138][646]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:154][647]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:170][648]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:187][649]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:203][650]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:219][651]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:235][652]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:251][653]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:267][654]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:283][655]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:299][656]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:316][657]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:332][658]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:348][659]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:364][660]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:380][661]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:396][662]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:412][663]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:428][664]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:445][665]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:461][666]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:477][667]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:493][668]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:509][669]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:525][670]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:542][671]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:558][672]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:574][673]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:590][674]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:606][675]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:622][676]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:638][677]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:654][678]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:671][679]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:687][680]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:703][681]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:719][682]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:735][683]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:751][684]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:767][685]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:783][686]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:799][687]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:816][688]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:832][689]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:849][690]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:865][691]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:880][692]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:896][693]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:912][694]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:929][695]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:945][696]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:961][697]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:977][698]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.21:993][699]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:009][700]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:025][701]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:042][702]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:058][703]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:074][704]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:090][705]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:106][706]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:122][707]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:138][708]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:154][709]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:170][710]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:187][711]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:204][712]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:219][713]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:235][714]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:251][715]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:267][716]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:283][717]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:299][718]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:316][719]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:332][720]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:348][721]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:364][722]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:380][723]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:396][724]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:413][725]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:428][726]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:445][727]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:461][728]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] true
+[2016.12.03-19.20.22:554][729]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve MissileCommand.umap.
+[2016.12.03-19.20.22:625][729]LogPackageName: SearchForPackageOnDisk took   0.070s to resolve MissileCommand.umap.
+[2016.12.03-19.20.22:625][729]LogNet: Browse: /Game/MissileCommand?Name=Player
+[2016.12.03-19.20.22:625][729]LogLoad: LoadMap: /Game/MissileCommand?Name=Player
+[2016.12.03-19.20.22:657][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022CF12477E0
+[2016.12.03-19.20.22:683][729]LogMemory: Platform Memory Stats for Windows
+[2016.12.03-19.20.22:683][729]LogMemory: Process Physical Memory: 595.51 MB used, 595.56 MB peak
+[2016.12.03-19.20.22:683][729]LogMemory: Process Virtual Memory: 827.42 MB used, 828.81 MB peak
+[2016.12.03-19.20.22:683][729]LogMemory: Physical Memory: 7085.75 MB used, 16299.20 MB total
+[2016.12.03-19.20.22:683][729]LogMemory: Virtual Memory: 1497.95 MB used, 134217728.00 MB total
+[2016.12.03-19.20.22:683][729]LogMemory: 
+[2016.12.03-19.20.22:683][729]Allocator Stats for TBB: (not implemented)
+[2016.12.03-19.20.22:760][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.03-19.20.22:762][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0017.36] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.22:762][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0017.36] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:762][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0017.36] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:786][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.03-19.20.22:788][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0017.39] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 4 ms]
+[2016.12.03-19.20.22:788][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0017.39] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:788][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0017.39] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:812][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.03-19.20.22:815][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0017.41] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.22:815][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0017.41] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:815][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0017.41] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:841][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.03-19.20.22:843][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0017.44] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.22:843][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0017.44] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:843][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0017.44] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.22:887][729]LogLinker:Warning: Asset '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.03-19.20.22:937][729]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'Arrow': FirstPersonCharacter_C /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2016.12.03-19.20.23:058][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.03-19.20.23:061][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0017.66] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.23:061][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0017.66] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:061][729]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0017.66] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:075][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.03-19.20.23:077][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0017.68] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.23:077][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0017.68] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:077][729]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0017.68] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:089][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.03-19.20.23:092][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0017.69] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.23:092][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0017.69] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:092][729]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0017.69] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:103][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.03-19.20.23:106][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0017.70] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 5 ms]
+[2016.12.03-19.20.23:106][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0017.70] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:106][729]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0017.70] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.03-19.20.23:316][729]LogAIModule: Creating AISystem for world MissileCommand
+[2016.12.03-19.20.23:316][729]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.03-19.20.23:317][729]LogPrimitiveComponent: Zero scaling not supported (/Game/MissileCommand.MissileCommand:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.20.23:319][729]LogPrimitiveComponent: Zero scaling not supported (/Game/MissileCommand.MissileCommand:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.20.23:319][729]LogPrimitiveComponent: Zero scaling not supported (/Game/MissileCommand.MissileCommand:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.03-19.20.23:319][729]LogWorld: Bringing World /Game/MissileCommand.MissileCommand up for play (max tick rate 0) at 2016.12.03-14.20.23
+[2016.12.03-19.20.23:320][729]LogWorld: Bringing up level for play took: 0.003074
+[2016.12.03-19.20.27:921][ 14]LogBlueprintUserMessages: [MissileCommandGM_C_0] 3
+[2016.12.03-19.20.29:969][141]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/MissileCommand.MissileCommand:PersistentLevel.Misil4_C_1
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0271
+[2016.12.03-19.20.30:082][148]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/MissileCommand.MissileCommand:PersistentLevel.Misil4_C_17
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0271
+[2016.12.03-19.20.32:920][324]LogBlueprintUserMessages: [MissileCommandGM_C_0] 2
+[2016.12.03-19.20.36:238][528]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.03-19.20.36:241][528]LogEngine: All Windows Closed
+[2016.12.03-19.20.36:241][528]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.12.03-19.20.36:428][529]LogExit: Preparing to exit.
+[2016.12.03-19.20.36:472][529]LogExit: Game engine shut down
+[2016.12.03-19.20.36:584][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022CF1927920
+[2016.12.03-19.20.36:584][529]LogExit: Object subsystem successfully closed.
+[2016.12.03-19.20.36:590][529]LogD3D11RHI: Shutdown
+[2016.12.03-19.20.36:590][529]LogD3D11RHI: CleanupD3DDevice
+[2016.12.03-19.20.36:628][529]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.03-19.20.36:639][529]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (115)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module AutomationWorker (113)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module CharacterAI (112)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module AITestSuite (111)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module GameplayDebugger (110)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2016.12.03-19.20.37:618][529]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module OculusRift (100)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2016.12.03-19.20.37:647][529]LogModuleManager: Shutting down and abandoning module LeapMotionController (98)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.12.03-19.20.37:695][529]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.12.03-19.20.37:697][529]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.12.03-19.20.37:698][529]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.12.03-19.20.37:699][529]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.12.03-19.20.37:700][529]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.12.03-19.20.37:879][529]LogDerivedDataCache: Shutdown
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.03-19.20.37:879][529]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.03-19.20.37:880][529]LogExit: Exiting.
+[2016.12.03-19.20.37:881][529]Log file closed, 12/03/16 14:20:37
