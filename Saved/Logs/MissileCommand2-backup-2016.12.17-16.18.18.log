@@ -1,0 +1,1197 @@
+﻿[2016.12.17-01.11.16:771][  0]Log file open, 12/16/16 20:11:16
+[2016.12.17-01.11.16:771][  0]LogInit:Display: Running engine for game: MissileCommand2
+[2016.12.17-01.11.16:771][  0]LogInit:Display: RandInit(1456210321) SRandInit(1456210321).
+[2016.12.17-01.11.16:771][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.12.17-01.11.16:771][  0]LogStats: Stats thread started at 0.124767
+[2016.12.17-01.11.16:771][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.12.17-01.11.16:771][  0]LogInit: API Version: 2672455
+[2016.12.17-01.11.16:771][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.12.17-01.11.16:771][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.12.17-01.11.16:771][  0]LogInit: Build Configuration: Development
+[2016.12.17-01.11.16:771][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.12.17-01.11.16:771][  0]LogInit: Command line:  
+[2016.12.17-01.11.16:771][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.12.17-01.11.16:771][  0]LogInit: Rocket: 1
+[2016.12.17-01.11.16:819][  0]LogInit: Using libcurl 7.41.0
+[2016.12.17-01.11.16:819][  0]LogInit:  - built for x86_64-pc-win32
+[2016.12.17-01.11.16:819][  0]LogInit:  - supports SSL with WinSSL
+[2016.12.17-01.11.16:819][  0]LogInit:  - other features:
+[2016.12.17-01.11.16:819][  0]LogInit:      CURL_VERSION_SSL
+[2016.12.17-01.11.16:819][  0]LogInit:      CURL_VERSION_IPV6
+[2016.12.17-01.11.16:819][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.12.17-01.11.16:819][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.12.17-01.11.16:819][  0]LogInit:      CURL_VERSION_IDN
+[2016.12.17-01.11.16:819][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.12.17-01.11.16:819][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.12.17-01.11.16:819][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.12.17-01.11.16:819][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.12.17-01.11.16:819][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.12.17-01.11.16:906][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.12.17-01.11.16:912][  0]LogInit: Object subsystem initialized
+[2016.12.17-01.11.16:913][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.17-01.11.16:913][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.17-01.11.16:944][  0]LogInit: Computer: MSI
+[2016.12.17-01.11.16:944][  0]LogInit: User: jsoba
+[2016.12.17-01.11.16:944][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.12.17-01.11.16:944][  0]LogInit: High frequency timer resolution =2.630616 MHz
+[2016.12.17-01.11.16:944][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.17-01.11.16:944][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.17-01.11.16:944][  0]LogMemory: Process Physical Memory: 55.29 MB used, 55.29 MB peak
+[2016.12.17-01.11.16:944][  0]LogMemory: Process Virtual Memory: 58.52 MB used, 58.52 MB peak
+[2016.12.17-01.11.16:944][  0]LogMemory: Physical Memory: 7322.52 MB used, 16299.20 MB total
+[2016.12.17-01.11.16:944][  0]LogMemory: Virtual Memory: 372.84 MB used, 134217728.00 MB total
+[2016.12.17-01.11.17:894][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.17-01.11.18:808][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M        (Feature Level 11_0)
+[2016.12.17-01.11.18:808][  0]LogD3D11RHI: Adapter has 2991MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 1 output[s]
+[2016.12.17-01.11.18:812][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5600 (Feature Level 11_0)
+[2016.12.17-01.11.18:812][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.17-01.11.18:813][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.12.17-01.11.18:813][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.17-01.11.18:813][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.12.17-01.11.18:821][  0]LogD3D11RHI: !Direct3DDevice
+[2016.12.17-01.11.18:821][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.17-01.11.18:830][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.17-01.11.18:842][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Intermediate/Shaders/WorkingDirectory/8884/).
+[2016.12.17-01.11.18:843][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Intermediate/Shaders/tmp/E070CC9844053CA747613294028D2B47/'.
+[2016.12.17-01.11.18:843][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.17-01.11.21:000][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.17-01.11.21:005][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.17-01.11.21:011][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.17-01.11.21:016][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.17-01.11.21:022][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.17-01.11.21:025][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.17-01.11.21:028][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.17-01.11.21:032][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.17-01.11.21:035][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.17-01.11.21:039][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.17-01.11.21:042][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.17-01.11.21:046][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.17-01.11.21:046][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.17-01.11.21:122][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.17-01.11.21:129][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.17-01.11.21:141][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.17-01.11.21:164][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.17-01.11.21:164][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.17-01.11.21:840][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.17-01.11.21:905][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.12.17-01.11.21:905][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.12.17-01.11.21:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.17-01.11.21:906][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.17-01.11.21:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.17-01.11.21:906][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.17-01.11.22:046][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.17-01.11.22:058][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsoba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.17-01.11.29:224][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.17-01.11.29:227][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.12.17-01.11.29:379][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.17-01.11.29:379][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.17-01.11.29:987][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.17-01.11.36:125][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.17-01.11.36:473][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2016.12.17-01.11.36:803][  0]SourceControl: Info Source control is disabled
+[2016.12.17-01.11.36:805][  0]SourceControl: Info Source control is disabled
+[2016.12.17-01.11.36:819][  0]SourceControl: Info Source control is disabled
+[2016.12.17-01.11.36:832][  0]SourceControl: Info Source control is disabled
+[2016.12.17-01.11.37:461][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.17-01.11.37:675][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.12.17-01.11.37:675][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2016.12.17-01.11.37:750][  0]LogEngine: Initializing Engine...
+[2016.12.17-01.11.37:753][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.12.17-01.11.37:776][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.17-01.11.37:983][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.17-01.11.37:987][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.17-01.11.38:040][  0]LogInit: FAudioDevice initialized.
+[2016.12.17-01.11.38:062][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.12.17-01.11.38:067][  0]LogInit: Texture streaming: Enabled
+[2016.12.17-01.11.38:073][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.12.17-01.11.38:073][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.12.17-01.11.38:073][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 56f1b5ec420c3c923850ebbc03a41376|a1c3604e7a24486293c4422910c37ebe|3593c830-db43-489c-b164-98315b6fabc3
+[2016.12.17-01.11.38:073][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.12.17-01.11.38:126][  0]LogInit: Transaction tracking system initialized
+[2016.12.17-01.11.38:156][  0]BlueprintLog: New page: Editor Load
+[2016.12.17-01.11.38:345][  0]LocalizationService: Info Localization service is disabled
+[2016.12.17-01.11.38:631][  0]LogConsoleResponse:Display: 
+[2016.12.17-01.11.38:918][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.12.17-01.11.39:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/' took 0.02s
+[2016.12.17-01.11.39:043][  0]SourceControl: Info Source control is disabled
+[2016.12.17-01.11.39:083][  0]LightingResults: New page: Lighting Build
+[2016.12.17-01.11.39:086][  0]MapCheck: New page: Map Check
+[2016.12.17-01.11.39:086][  0]LightingResults: New page: Lighting Build
+[2016.12.17-01.11.39:095][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002787A9CE160
+[2016.12.17-01.11.40:415][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.17-01.11.40:418][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0025.35] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 28 ms]
+[2016.12.17-01.11.40:418][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0025.35] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:418][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0025.35] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:467][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.17-01.11.40:471][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0025.40] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 10 ms]
+[2016.12.17-01.11.40:471][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0025.40] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:471][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0025.40] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:573][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.17-01.11.40:576][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0025.50] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 14 ms]
+[2016.12.17-01.11.40:576][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0025.50] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:576][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0025.50] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:635][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.17-01.11.40:638][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0025.56] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 9 ms]
+[2016.12.17-01.11.40:638][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0025.56] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.40:638][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0025.56] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.41:126][  0]LogLinker:Warning: Asset '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.17-01.11.41:980][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.17-01.11.41:985][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0026.91] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 12 ms]
+[2016.12.17-01.11.41:985][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0026.91] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.41:985][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0026.91] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.42:019][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.17-01.11.42:023][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0026.95] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 14 ms]
+[2016.12.17-01.11.42:023][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0026.95] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.42:023][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0026.95] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.42:055][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.17-01.11.42:060][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0026.99] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 14 ms]
+[2016.12.17-01.11.42:060][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0026.99] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.42:060][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0026.99] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.42:090][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.17-01.11.42:095][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0027.02] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 13 ms]
+[2016.12.17-01.11.42:095][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0027.02] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.17-01.11.42:095][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0027.02] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.17-01.11.46:575][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.17-01.11.46:600][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.11.46:682][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.11.46:682][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.11.46:912][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.17-01.11.46:912][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.17-01.11.46:969][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.085ms to complete.
+[2016.12.17-01.11.46:969][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 7.926
+[2016.12.17-01.11.47:266][  0]LogCollectionManager: Loaded 0 collections in 0.002327 seconds
+[2016.12.17-01.11.47:324][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/Collections/' took 0.01s
+[2016.12.17-01.11.47:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Developers/jsoba/Collections/' took 0.01s
+[2016.12.17-01.11.47:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Collections/' took 0.01s
+[2016.12.17-01.11.47:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0226 seconds. Added 1867 classes and 333 folders.
+[2016.12.17-01.11.47:335][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.12.17-01.11.47:350][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.17-01.11.48:312][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.17-01.11.48:320][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.12.17-01.11.48:455][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.17-01.11.48:459][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.17-01.11.48:480][  0]LogLoad: Full Startup: 33.41 seconds (BP compile: 0.68 seconds)
+[2016.12.17-01.11.48:640][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.17-01.11.48:791][  0]LogRenderer: Reallocating scene render targets to support 1224x468 (Frame:2).
+[2016.12.17-01.11.49:365][ 10]LogAssetRegistry: Asset discovery search completed in 12.9028 seconds
+[2016.12.17-01.11.49:365][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.17-01.11.49:365][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.12.17-01.12.08:016][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.12.08:016][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.17-01.12.08:040][174]PIE: New page: PIE session: FirstPersonExampleMap (Dec 16, 2016, 3:12:08 PM)
+[2016.12.17-01.12.08:050][174]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.17-01.12.08:256][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205783s)
+[2016.12.17-01.12.08:257][174]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.17-01.12.08:258][174]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2016.12.17-01.12.08:259][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.208477s)
+[2016.12.17-01.12.08:273][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.17-01.12.08:344][174]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.17-01.12.08:407][174]LogInit: FAudioDevice initialized.
+[2016.12.17-01.12.08:515][174]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.17-01.12.08:522][174]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.12.08:544][174]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.16-20.12.08
+[2016.12.17-01.12.08:544][174]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.12.08:549][174]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.12.08:567][174]LogWorld: Bringing up level for play took: 0.049580
+[2016.12.17-01.12.08:783][174]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.373
+[2016.12.17-01.12.08:783][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.12.08:944][175]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:107).
+[2016.12.17-01.12.10:260][209]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.12.12:222][264]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.12.14:249][319]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.12.16:274][375]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.12.18:280][428]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.12.20:304][484]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.12.22:313][540]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.12.24:323][596]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.12.26:342][653]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.12.28:344][710]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.12.30:349][766]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.12.32:378][822]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.12.33:834][862]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_0
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.12.33:849][862]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.12.34:414][878]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.12.36:425][932]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.12.38:444][987]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.12.40:455][ 41]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.12.42:489][ 95]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.12.44:494][147]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.12.46:517][200]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.12.48:530][254]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.12.50:557][308]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.12.52:567][362]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.12.54:592][414]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.12.56:616][466]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.12.58:635][520]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.13.00:637][573]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.13.02:653][626]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.13.04:681][678]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.13.05:745][706]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_29
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.13.05:745][706]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.13.06:686][731]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.13.08:693][783]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.13.09:103][793]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_33
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.13.09:104][793]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.13.10:700][833]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.13.11:841][860]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.12:733][882]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.13.14:764][931]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.13.16:130][965]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_29
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.13.16:130][965]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.13.16:766][981]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.13.17:101][989]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_33
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.13.17:101][989]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.13.18:395][ 20]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.18:562][ 24]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.18:726][ 28]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.18:818][ 30]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.13.18:897][ 32]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.19:109][ 37]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.19:449][ 45]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_35
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0427
+[2016.12.17-01.13.19:449][ 45]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.13.20:581][ 72]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.20:742][ 76]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.20:826][ 78]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.13.20:951][ 81]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.21:118][ 85]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.21:279][ 89]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.22:863][128]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.13.23:425][142]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.23:628][147]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.23:835][152]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.24:049][157]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.24:251][162]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.24:492][168]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.24:670][172]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.24:865][177]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.13.24:867][177]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.25:075][182]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.25:239][186]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.26:567][218]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.26:728][222]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.26:890][226]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.13.26:929][227]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.27:840][249]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.28:002][253]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.28:207][258]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.28:382][262]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.28:383][262]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_6
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.13.28:383][262]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.13.28:583][267]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.28:706][270]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_8
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.13.28:706][270]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.13.28:752][271]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.28:875][274]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_9
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.13.28:875][274]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.13.28:915][275]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.13.28:964][276]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.29:039][278]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_11
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.13.29:039][278]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.13.29:165][281]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.29:360][286]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.29:561][291]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.29:723][295]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.29:932][300]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.30:953][326]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.13.32:961][379]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.13.34:981][427]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.13.35:072][429]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_3
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.13.35:072][429]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.13.37:001][474]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.13.37:661][490]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.37:874][495]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.38:067][500]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.38:235][504]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.38:436][509]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.13.39:035][523]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.13.41:064][571]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.13.41:101][572]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_44
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.13.41:101][572]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.13.43:075][624]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.13.44:474][662]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_33
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0427
+[2016.12.17-01.13.44:474][662]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.14.21:543][824]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve FirstPersonExampleMap.umap.
+[2016.12.17-01.14.21:621][824]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve FirstPersonExampleMap.umap.
+[2016.12.17-01.14.21:621][824]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.12.17-01.14.21:624][824]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.12.17-01.14.21:714][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002780C396840
+[2016.12.17-01.14.21:721][824]Cmd: MEM
+[2016.12.17-01.14.21:807][824]LogMemory: Platform Memory Stats for Windows
+[2016.12.17-01.14.21:807][824]LogMemory: Process Physical Memory: 917.67 MB used, 932.12 MB peak
+[2016.12.17-01.14.21:807][824]LogMemory: Process Virtual Memory: 1527.50 MB used, 1625.01 MB peak
+[2016.12.17-01.14.21:807][824]LogMemory: Physical Memory: 8078.49 MB used, 16299.20 MB total
+[2016.12.17-01.14.21:807][824]LogMemory: Virtual Memory: 2355.48 MB used, 134217728.00 MB total
+[2016.12.17-01.14.21:807][824]LogMemory: 
+[2016.12.17-01.14.21:807][824]Allocator Stats for TBB: (not implemented)
+[2016.12.17-01.14.21:819][824]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.17-01.14.21:966][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146026s)
+[2016.12.17-01.14.21:966][824]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.17-01.14.21:967][824]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2016.12.17-01.14.21:967][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.147156s)
+[2016.12.17-01.14.21:967][824]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.17-01.14.21:972][824]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.14.21:994][824]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.16-20.14.21
+[2016.12.17-01.14.21:994][824]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.14.21:994][824]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.14.21:995][824]LogWorld: Bringing up level for play took: 0.026549
+[2016.12.17-01.14.21:995][824]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.17-01.14.23:618][869]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.14.25:630][925]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.14.27:662][982]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.14.29:678][ 39]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.14.31:695][ 96]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.14.33:166][137]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors3 out of bounds [0/0]!
+[2016.12.17-01.14.33:253][140]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors3 out of bounds [0/0]!
+[2016.12.17-01.14.33:712][153]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.14.35:742][210]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.14.37:765][267]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.14.39:771][323]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.14.41:806][381]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.14.43:834][438]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.14.45:865][495]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.14.47:875][551]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.14.49:908][608]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.14.51:121][642]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_43
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.14.51:121][642]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.14.51:940][665]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.14.53:962][720]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.14.55:300][757]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_15
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.14.55:301][757]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.14.55:443][761]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_16
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.14.55:443][761]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.14.55:985][776]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.14.57:987][829]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.14.59:933][881]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_56
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.14.59:933][881]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.15.00:005][883]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.15.02:032][938]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.15.04:068][994]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.15.06:071][ 48]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.15.08:102][102]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.15.08:583][115]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_64
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.15.08:583][115]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.15.10:135][157]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.15.11:331][189]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_25
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.15.11:331][189]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.11:663][198]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_26
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.15.11:663][198]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.12:157][211]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.15.14:171][265]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.15.16:206][319]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.15.18:229][371]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.15.20:251][423]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.15.22:266][475]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.15.24:295][527]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.15.26:296][578]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.15.26:618][586]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.27:649][611]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.27:776][614]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.27:985][619]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.28:142][623]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.28:303][627]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.15.28:346][628]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.28:559][633]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.28:725][637]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.28:979][643]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.29:179][648]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.30:332][677]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.15.31:375][702]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.31:577][707]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.32:352][725]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.15.34:137][767]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.34:297][771]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.34:385][773]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.15.34:509][776]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.36:424][823]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.15.38:445][869]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.15.40:484][916]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.15.40:700][921]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_43
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.15.40:700][921]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.42:390][960]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_38
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.15.42:390][960]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.42:525][963]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.15.43:710][991]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_33
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.15.43:710][991]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.44:129][  1]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.15.44:525][ 11]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.15.44:646][ 14]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_34
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.15.44:646][ 14]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.46:557][ 61]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.15.48:563][108]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.15.48:946][117]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_64
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.15.48:946][117]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.15.50:599][158]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.15.51:301][176]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_44
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.15.51:301][176]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.15.52:636][212]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.15.54:656][267]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.15.56:660][325]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.15.58:668][380]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.15.59:260][395]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_75
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.15.59:260][395]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.00:256][420]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_80
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.00:256][420]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.00:698][431]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.16.00:700][431]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_83
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.00:701][431]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.01:851][459]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.02:557][475]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_92
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.02:557][475]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.02:730][479]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.16.04:230][512]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_94
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.04:230][512]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.04:744][524]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.16.06:763][570]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.16.07:787][592]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_69
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.16.07:787][592]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.16.08:592][609]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_76
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.16.08:593][609]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.16.08:784][613]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.16.09:663][632]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_78
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.16.09:664][632]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.16.10:242][645]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_81
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.16.10:242][645]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.16.10:825][658]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.16.12:287][691]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_74
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.12:287][691]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.12:855][704]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.16.13:526][719]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_79
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.13:526][719]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.13:527][719]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_77
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.13:527][719]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.14:176][734]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_67
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0427
+[2016.12.17-01.16.14:176][734]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.16.14:618][744]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_78
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.14:618][744]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.14:660][745]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_80
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.14:660][745]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.14:743][747]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_81
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.14:743][747]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.14:870][750]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.16.14:871][750]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_82
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.14:871][750]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.16:889][797]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.16.17:258][806]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_85
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.17:258][806]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.17:337][808]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_93
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.16.17:337][808]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.17:421][810]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.17:666][816]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.17:868][821]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.18:110][827]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.18:313][832]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.18:553][838]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.18:717][842]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.18:915][847]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.16.20:929][897]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.16.22:954][948]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.16.24:301][983]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_84
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.16.24:301][983]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.24:598][991]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_83
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.16.24:598][991]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.16.24:955][  1]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.16.26:966][ 58]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.16.28:984][121]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.16.30:989][184]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.16.32:994][245]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.16.35:011][307]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.16.37:042][370]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.16.39:050][428]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.16.40:630][467]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.40:794][471]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.40:999][476]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.16.41:084][478]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.16.42:347][507]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_116
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.42:347][507]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.43:118][525]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 14
+[2016.12.17-01.16.43:591][536]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_117
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.43:591][536]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.44:614][560]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_140
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.44:615][560]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.45:125][572]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 14
+[2016.12.17-01.16.45:344][577]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_142
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.45:344][577]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.45:529][581]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_149
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.16.45:529][581]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.45:693][585]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_99
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0427
+[2016.12.17-01.16.45:693][585]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.16.45:779][586]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_96
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0427
+[2016.12.17-01.16.45:779][586]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.17.29:887][869]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve FirstPersonExampleMap.umap.
+[2016.12.17-01.17.29:953][869]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve FirstPersonExampleMap.umap.
+[2016.12.17-01.17.29:953][869]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.12.17-01.17.29:953][869]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.12.17-01.17.29:979][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000278012C3740
+[2016.12.17-01.17.29:980][869]Cmd: MEM
+[2016.12.17-01.17.29:994][869]LogMemory: Platform Memory Stats for Windows
+[2016.12.17-01.17.29:994][869]LogMemory: Process Physical Memory: 961.21 MB used, 966.62 MB peak
+[2016.12.17-01.17.29:994][869]LogMemory: Process Virtual Memory: 1473.98 MB used, 1683.71 MB peak
+[2016.12.17-01.17.29:994][869]LogMemory: Physical Memory: 8115.45 MB used, 16299.20 MB total
+[2016.12.17-01.17.29:994][869]LogMemory: Virtual Memory: 2346.00 MB used, 134217728.00 MB total
+[2016.12.17-01.17.29:994][869]LogMemory: 
+[2016.12.17-01.17.29:994][869]Allocator Stats for TBB: (not implemented)
+[2016.12.17-01.17.29:994][869]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.17-01.17.30:110][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115369s)
+[2016.12.17-01.17.30:110][869]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.17-01.17.30:110][869]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2016.12.17-01.17.30:111][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.116372s)
+[2016.12.17-01.17.30:111][869]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.17-01.17.30:114][869]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.17.30:137][869]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.16-20.17.30
+[2016.12.17-01.17.30:137][869]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.17.30:137][869]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.17.30:138][869]LogWorld: Bringing up level for play took: 0.026295
+[2016.12.17-01.17.30:139][869]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.17-01.17.31:786][915]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.17.33:796][971]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.17.35:816][ 28]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.17.37:845][ 85]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.17.39:860][142]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.17.41:882][198]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.17.43:892][254]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.17.45:903][309]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.17.47:937][366]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.17.49:946][422]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.17.51:979][478]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.17.53:981][533]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.17.55:042][562]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_82
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0427
+[2016.12.17-01.17.55:042][562]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.17.55:984][588]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.17.58:006][644]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.18.00:024][700]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.18.00:492][713]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_48
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.18.00:492][713]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.18.02:049][758]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.18.04:077][817]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.18.04:247][822]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_49
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.18.04:247][822]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.18.04:493][829]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_83
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0427
+[2016.12.17-01.18.04:493][829]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.18.06:080][875]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.18.08:102][933]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.18.09:566][975]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_96
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.18.09:566][975]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.18.10:105][991]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.18.10:922][ 15]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_95
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.18.10:922][ 15]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.18.11:605][ 35]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.18.12:137][ 50]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.18.14:147][108]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.18.14:290][112]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_97
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.18.14:291][112]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.18.16:157][166]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.18.18:179][224]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.18.20:189][282]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.18.22:224][340]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.18.24:250][398]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.18.24:386][402]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.18.25:135][424]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.18.25:997][449]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.18.26:264][457]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.18.28:266][518]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.18.30:210][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.18.30:302][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.18.30:350][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002780188F380
+[2016.12.17-01.18.33:048][645]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.18.33:049][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.17-01.18.33:049][645]PIE: New page: PIE session: FirstPersonExampleMap (Dec 16, 2016, 3:18:33 PM)
+[2016.12.17-01.18.33:049][645]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.17-01.18.33:172][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123167s)
+[2016.12.17-01.18.33:173][645]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.17-01.18.33:173][645]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2016.12.17-01.18.33:173][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.124264s)
+[2016.12.17-01.18.33:218][645]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.17-01.18.33:253][645]LogInit: FAudioDevice initialized.
+[2016.12.17-01.18.33:291][645]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.17-01.18.33:294][645]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.17-01.18.33:314][645]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.16-20.18.33
+[2016.12.17-01.18.33:314][645]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.18.33:314][645]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.17-01.18.33:315][645]LogWorld: Bringing up level for play took: 0.023512
+[2016.12.17-01.18.33:334][645]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.061
+[2016.12.17-01.18.33:334][645]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.18.34:981][677]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.18.37:030][718]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.18.39:048][758]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.18.41:083][805]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.17-01.18.43:087][861]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.18.45:101][916]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.18.47:110][973]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.18.49:128][ 30]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.18.51:150][ 87]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.17-01.18.53:160][143]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.18.55:175][198]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.18.57:198][254]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.18.59:210][309]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.19.01:244][366]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.17-01.19.03:275][421]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.19.05:302][475]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.19.07:331][529]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.19.09:350][581]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.19.11:353][634]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.17-01.19.13:382][688]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.19.15:425][741]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.19.17:430][791]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.19.19:446][842]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.19.21:473][893]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.17-01.19.23:508][946]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.19.25:546][998]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.19.27:174][ 39]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_107
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0220
+[2016.12.17-01.19.27:174][ 39]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.19.27:560][ 49]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.19.29:565][100]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.19.31:594][151]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.17-01.19.33:607][201]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.19.35:626][251]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.19.37:650][299]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.19.39:684][342]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.19.39:891][346]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.41:507][382]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_116
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.19.41:507][382]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.19.41:699][386]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 6
+[2016.12.17-01.19.41:749][387]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_112
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.19.41:749][387]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.19.43:713][435]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.19.44:043][443]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.44:504][454]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.44:556][455]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_117
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.17-01.19.44:556][455]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.17-01.19.44:640][457]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.45:544][479]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.45:750][484]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.19.45:751][484]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.45:973][489]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.47:756][530]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.19.47:880][533]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.48:046][537]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.48:212][541]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.48:422][546]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.49:771][576]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.19.51:128][606]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_192
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.19.51:128][606]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.19.51:811][622]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 7
+[2016.12.17-01.19.53:819][669]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.19.54:278][680]LogScript:Warning: Cannot access 'Misil'. It is pending kill. Property: 'Misil'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_65
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0220
+[2016.12.17-01.19.54:278][680]PIE:Error: Error Cannot access 'Misil'. It is pending kill. Property: 'Misil' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.19.54:889][695]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.55:102][700]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.55:261][704]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.55:857][718]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.19.57:226][750]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_206
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.19.57:226][750]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.19.57:796][763]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_203
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.19.57:796][763]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.19.57:798][763]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_205
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.19.57:798][763]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.19.57:885][765]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.19.57:938][766]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_210
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.19.57:938][766]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.19.58:153][771]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_213
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.19.58:153][771]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.19.59:150][795]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.59:311][799]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.59:516][804]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.19.59:916][814]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.20.01:934][867]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 8
+[2016.12.17-01.20.03:600][911]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_63
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:0427
+[2016.12.17-01.20.03:600][911]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.17-01.20.03:942][920]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.20.05:620][962]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.05:827][967]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.05:959][970]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.20.05:962][970]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.06:131][974]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.06:376][980]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.07:994][ 17]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.20.08:387][ 26]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_100
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.08:387][ 26]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.09:830][ 59]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_109
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.09:830][ 59]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.10:035][ 64]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.20.10:585][ 77]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_120
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.10:585][ 77]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.12:061][111]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 9
+[2016.12.17-01.20.14:065][157]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.20.16:083][202]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.20.18:122][248]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.20.20:146][295]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.20.21:438][326]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.21:643][331]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.21:807][335]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.22:159][344]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 10
+[2016.12.17-01.20.24:162][399]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.20.26:170][454]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.20.28:185][511]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.20.30:210][569]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.20.32:226][627]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 11
+[2016.12.17-01.20.34:240][682]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.20.36:253][733]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.20.37:267][757]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_231
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.20.37:267][757]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.20.38:132][777]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_240
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.20.38:132][777]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.20.38:257][780]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.20.38:435][784]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_244
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.20.38:435][784]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.20.38:983][797]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_250
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0220
+[2016.12.17-01.20.38:983][797]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.20.40:291][828]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.20.42:301][875]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 12
+[2016.12.17-01.20.42:517][880]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_230
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0427
+[2016.12.17-01.20.42:517][880]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.20.43:064][894]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_229
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:0427
+[2016.12.17-01.20.43:064][894]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.17-01.20.44:319][931]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.20.46:343][989]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.20.48:354][ 50]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.20.50:395][105]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.20.50:609][110]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_153
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.50:609][110]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.50:612][110]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_144
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.50:612][110]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.50:651][111]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_147
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.50:651][111]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.51:793][138]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_161
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.51:793][138]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.52:404][152]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 13
+[2016.12.17-01.20.52:688][158]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_171
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.52:688][158]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.52:721][159]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_167
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.52:721][159]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.53:162][169]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_168
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.53:162][169]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.53:214][170]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_166
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.53:214][170]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.54:451][198]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 14
+[2016.12.17-01.20.54:964][210]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_173
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.54:964][210]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.56:261][242]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.12.17-01.20.56:458][247]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 14
+[2016.12.17-01.20.57:021][261]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_178
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0220
+[2016.12.17-01.20.57:021][261]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Set MisilTocoPiso in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.20.57:145][264]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil3_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil3_C_141
+	Function /Game/FirstPersonBP/Misiles/Misil3.Misil3_C:ExecuteUbergraph_Misil3:0427
+[2016.12.17-01.20.57:145][264]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil3
+[2016.12.17-01.22.16:142][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.22.16:206][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.17-01.22.16:236][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002780188FEC0
+[2016.12.17-01.23.49:071][ 76]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.17-01.23.49:674][ 76]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.12.17-01.24.03:722][326]BlueprintLog: New page: Compile PuntosExtras
+[2016.12.17-01.24.03:803][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.17-01.24.03:859][326]BlueprintEditorCompileResults: Info [0768.79] Compile of PuntosExtras successful! [in 136 ms]
+[2016.12.17-01.24.34:698][933]BlueprintLog: New page: Compile PuntosExtras
+[2016.12.17-01.24.34:841][933]BlueprintEditorCompileResults: Info [0799.77] Compile of PuntosExtras successful! [in 143 ms]
+[2016.12.17-01.31.54:984][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.060
+[2016.12.17-01.31.54:990][ 70]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuntosExtras] ([1] browsable assets)...
+[2016.12.17-01.31.54:990][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuntosExtras]
+[2016.12.17-01.31.55:037][ 70]LogSavePackage: Save=15.470901ms
+[2016.12.17-01.31.55:037][ 70]LogSavePackage: Moving '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/PuntosExtras_Auto1A222359C4C5BAC29D6422E9B58D5FD6C.tmp' to '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/Autosaves/Game/PuntosExtras_Auto1.uasset'
+[2016.12.17-01.31.55:053][ 70]LogSavePackage: Total save time: 61.089873ms
+[2016.12.17-01.31.55:053][ 70]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/Autosaves/Game/PuntosExtras_Auto1.uasset
+[2016.12.17-01.31.55:053][ 70]LogFileHelpers: Auto-saving content packages took 0.068
+[2016.12.17-02.32.28:382][894]LogSavePackage: Save=28.879547ms
+[2016.12.17-02.32.28:382][894]LogSavePackage: Moving '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/PuntosExtras2749607A48841EB1ED8CD6B07D5E7674.tmp' to '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/PuntosExtras.uasset'
+[2016.12.17-02.32.28:404][894]LogSavePackage: Total save time: 51.079672ms
+[2016.12.17-02.32.28:404][894]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/PuntosExtras.uasset
+[2016.12.17-02.32.28:732][894]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.17-02.32.29:011][895]Cmd: QUIT_EDITOR
+[2016.12.17-02.32.29:947][895]LogExit: Preparing to exit.
+[2016.12.17-02.32.31:413][895]LogExit: Editor shut down
+[2016.12.17-02.32.31:414][895]LogExit: Transaction tracking system shut down
+[2016.12.17-02.32.31:416][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027855E0AAC0
+[2016.12.17-02.32.31:428][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002780534E980
+[2016.12.17-02.32.31:429][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002780BDE5940
+[2016.12.17-02.32.31:432][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000278107E1F80
+[2016.12.17-02.32.31:432][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002780BDE77E0
+[2016.12.17-02.32.31:432][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002786F8107C0
+[2016.12.17-02.32.31:435][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002786F8102C0
+[2016.12.17-02.32.31:686][895]LogExit: Object subsystem successfully closed.
+[2016.12.17-02.32.31:709][895]LogD3D11RHI: Shutdown
+[2016.12.17-02.32.31:709][895]LogD3D11RHI: CleanupD3DDevice
+[2016.12.17-02.32.31:811][895]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.12.17-02.32.31:837][895]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.12.17-02.32.31:843][895]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.12.17-02.32.31:843][895]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.12.17-02.32.31:843][895]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.12.17-02.32.31:843][895]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.12.17-02.32.31:843][895]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.12.17-02.32.31:844][895]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.12.17-02.32.32:257][895]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.12.17-02.32.32:258][895]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.12.17-02.32.32:259][895]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.12.17-02.32.32:282][895]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.12.17-02.32.32:313][895]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.12.17-02.32.32:314][895]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.12.17-02.32.32:315][895]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.12.17-02.32.32:320][895]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.12.17-02.32.32:476][895]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.12.17-02.32.32:478][895]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.12.17-02.32.32:478][895]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.12.17-02.32.32:579][895]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.12.17-02.32.32:579][895]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.12.17-02.32.32:579][895]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.12.17-02.32.32:582][895]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.12.17-02.32.32:583][895]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.12.17-02.32.32:583][895]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.12.17-02.32.32:583][895]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.12.17-02.32.32:583][895]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.12.17-02.32.32:583][895]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.12.17-02.32.32:585][895]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.12.17-02.32.32:586][895]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.12.17-02.32.32:596][895]LogDerivedDataCache: Shutdown
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.12.17-02.32.32:596][895]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.17-02.32.32:597][895]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.12.17-02.32.34:600][895]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.12.17-02.32.34:600][895]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.17-02.32.34:600][895]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.17-02.32.34:600][895]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.17-02.32.34:600][895]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.17-02.32.34:600][895]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.17-02.32.34:615][895]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.17-02.32.34:616][895]LogExit: Exiting.
+[2016.12.17-02.32.34:620][895]Log file closed, 12/16/16 21:32:34

@@ -1,0 +1,567 @@
+﻿[2016.12.20-20.13.51:294][  0]Log file open, 12/20/16 15:13:51
+[2016.12.20-20.13.51:294][  0]LogInit:Display: Running engine for game: MissileCommand2
+[2016.12.20-20.13.51:294][  0]LogInit:Display: RandInit(328550450) SRandInit(328550450).
+[2016.12.20-20.13.51:294][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.12.20-20.13.51:294][  0]LogStats: Stats thread started at 0.110932
+[2016.12.20-20.13.51:294][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.12.20-20.13.51:294][  0]LogInit: API Version: 2672455
+[2016.12.20-20.13.51:294][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.12.20-20.13.51:294][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.12.20-20.13.51:294][  0]LogInit: Build Configuration: Development
+[2016.12.20-20.13.51:294][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.12.20-20.13.51:294][  0]LogInit: Command line: 
+[2016.12.20-20.13.51:294][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.12.20-20.13.51:294][  0]LogInit: Rocket: 1
+[2016.12.20-20.13.51:403][  0]LogInit: Using libcurl 7.41.0
+[2016.12.20-20.13.51:403][  0]LogInit:  - built for x86_64-pc-win32
+[2016.12.20-20.13.51:403][  0]LogInit:  - supports SSL with WinSSL
+[2016.12.20-20.13.51:403][  0]LogInit:  - other features:
+[2016.12.20-20.13.51:403][  0]LogInit:      CURL_VERSION_SSL
+[2016.12.20-20.13.51:403][  0]LogInit:      CURL_VERSION_IPV6
+[2016.12.20-20.13.51:403][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.12.20-20.13.51:403][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.12.20-20.13.51:403][  0]LogInit:      CURL_VERSION_IDN
+[2016.12.20-20.13.51:403][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.12.20-20.13.51:403][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.12.20-20.13.51:403][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.12.20-20.13.51:403][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.12.20-20.13.51:403][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.12.20-20.13.51:418][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.12.20-20.13.51:428][  0]LogInit: Object subsystem initialized
+[2016.12.20-20.13.51:431][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.20-20.13.51:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.20-20.13.51:456][  0]LogInit: Computer: MSI
+[2016.12.20-20.13.51:456][  0]LogInit: User: jsoba
+[2016.12.20-20.13.51:456][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.12.20-20.13.51:456][  0]LogInit: High frequency timer resolution =2.630631 MHz
+[2016.12.20-20.13.51:456][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.20-20.13.51:456][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.20-20.13.51:456][  0]LogMemory: Process Physical Memory: 55.23 MB used, 55.23 MB peak
+[2016.12.20-20.13.51:456][  0]LogMemory: Process Virtual Memory: 55.52 MB used, 55.52 MB peak
+[2016.12.20-20.13.51:456][  0]LogMemory: Physical Memory: 5942.02 MB used, 16299.20 MB total
+[2016.12.20-20.13.51:456][  0]LogMemory: Virtual Memory: 369.84 MB used, 134217728.00 MB total
+[2016.12.20-20.13.51:932][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.20-20.13.52:519][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M        (Feature Level 11_0)
+[2016.12.20-20.13.52:519][  0]LogD3D11RHI: Adapter has 2991MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 1 output[s]
+[2016.12.20-20.13.52:523][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 5600 (Feature Level 11_0)
+[2016.12.20-20.13.52:523][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.20-20.13.52:524][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.12.20-20.13.52:524][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8149MB of shared system memory, 0 output[s]
+[2016.12.20-20.13.52:524][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.12.20-20.13.52:530][  0]LogD3D11RHI: !Direct3DDevice
+[2016.12.20-20.13.52:530][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.20-20.13.52:544][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.20-20.13.52:562][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Intermediate/Shaders/WorkingDirectory/960/).
+[2016.12.20-20.13.52:563][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Intermediate/Shaders/tmp/AA92B0F0492753702668EC9DA65B958B/'.
+[2016.12.20-20.13.52:563][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.20-20.13.53:603][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.20-20.13.53:609][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.20-20.13.53:614][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.20-20.13.53:620][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.20-20.13.53:625][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.20-20.13.53:628][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.20-20.13.53:632][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.20-20.13.53:635][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.20-20.13.53:639][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.20-20.13.53:643][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.20-20.13.53:646][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.20-20.13.53:650][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.20-20.13.53:651][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.20-20.13.53:669][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.20-20.13.53:672][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.20-20.13.53:675][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.20-20.13.53:679][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.20-20.13.53:679][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.20-20.13.53:945][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.20-20.13.53:998][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.12.20-20.13.53:998][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.12.20-20.13.53:998][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.20-20.13.53:998][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.20-20.13.53:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.20-20.13.53:999][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.20-20.13.54:131][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.20-20.13.54:142][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jsoba/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.20-20.13.56:091][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.20-20.13.56:093][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.12.20-20.13.56:221][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.20-20.13.56:221][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.20-20.13.56:529][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.20-20.13.57:492][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.20-20.13.57:645][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.12.20-20.13.57:899][  0]SourceControl: Info Source control is disabled
+[2016.12.20-20.13.57:900][  0]SourceControl: Info Source control is disabled
+[2016.12.20-20.13.57:951][  0]SourceControl: Info Source control is disabled
+[2016.12.20-20.13.57:979][  0]SourceControl: Info Source control is disabled
+[2016.12.20-20.13.58:229][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.20-20.13.58:502][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.12.20-20.13.58:502][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.12.20-20.13.58:616][  0]LogEngine: Initializing Engine...
+[2016.12.20-20.13.58:619][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.12.20-20.13.58:620][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.20-20.13.58:747][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.20-20.13.58:752][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.20-20.13.58:788][  0]LogInit: FAudioDevice initialized.
+[2016.12.20-20.13.58:810][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/jsoba/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.12.20-20.13.58:816][  0]LogInit: Texture streaming: Enabled
+[2016.12.20-20.13.58:823][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.12.20-20.13.58:823][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.12.20-20.13.58:823][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 56f1b5ec420c3c923850ebbc03a41376|a1c3604e7a24486293c4422910c37ebe|3593c830-db43-489c-b164-98315b6fabc3
+[2016.12.20-20.13.58:823][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.12.20-20.13.58:841][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.20-20.13.58:874][  0]LogInit: Transaction tracking system initialized
+[2016.12.20-20.13.59:899][  0]BlueprintLog: New page: Editor Load
+[2016.12.20-20.14.01:647][  0]LocalizationService: Info Localization service is disabled
+[2016.12.20-20.14.02:114][  0]LogConsoleResponse:Display: 
+[2016.12.20-20.14.02:717][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.12.20-20.14.02:912][  0]SourceControl: Info Source control is disabled
+[2016.12.20-20.14.02:967][  0]LightingResults: New page: Lighting Build
+[2016.12.20-20.14.02:970][  0]MapCheck: New page: Map Check
+[2016.12.20-20.14.02:970][  0]LightingResults: New page: Lighting Build
+[2016.12.20-20.14.02:980][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025CD2E2A160
+[2016.12.20-20.14.03:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/' took 0.63s
+[2016.12.20-20.14.06:448][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.20-20.14.06:461][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0016.47] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 58 ms]
+[2016.12.20-20.14.06:461][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0016.47] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:461][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0016.47] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:563][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.20-20.14.06:568][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0016.58] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 13 ms]
+[2016.12.20-20.14.06:568][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0016.58] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:568][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0016.58] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:666][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.20-20.14.06:671][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0016.68] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 13 ms]
+[2016.12.20-20.14.06:671][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0016.68] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:671][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0016.68] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:806][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.20-20.14.06:810][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0016.82] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 9 ms]
+[2016.12.20-20.14.06:810][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0016.82] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.06:810][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0016.82] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.07:212][  0]LogLinker:Warning: Asset '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.20-20.14.08:245][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.20-20.14.08:248][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0018.26] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 9 ms]
+[2016.12.20-20.14.08:248][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0018.26] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:248][  0]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0018.26] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:270][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.20-20.14.08:273][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0018.28] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 9 ms]
+[2016.12.20-20.14.08:273][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0018.28] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:273][  0]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0018.28] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:297][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.20-20.14.08:300][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0018.31] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 10 ms]
+[2016.12.20-20.14.08:300][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0018.31] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:300][  0]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0018.31] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:325][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.20-20.14.08:328][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0018.34] Compile of SpawnClassMisil4Izquierda successful, but with 1 Warning(s) [in 10 ms]
+[2016.12.20-20.14.08:328][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0018.34] Compile of SpawnClassMisil4Izquierda successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.14.08:328][  0]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning [0018.34] Compile of SpawnClassMisil4Izquierda successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.14.13:672][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.20-20.14.13:727][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.20-20.14.13:952][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.20-20.14.13:952][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.20-20.14.14:212][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.20-20.14.14:212][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.20-20.14.14:270][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.032ms to complete.
+[2016.12.20-20.14.14:270][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 11.358
+[2016.12.20-20.14.14:862][  0]LogCollectionManager: Loaded 0 collections in 0.008121 seconds
+[2016.12.20-20.14.14:943][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/Collections/' took 0.01s
+[2016.12.20-20.14.14:943][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Developers/jsoba/Collections/' took 0.01s
+[2016.12.20-20.14.14:943][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Collections/' took 0.01s
+[2016.12.20-20.14.14:943][  0]LogContentBrowser: Native class hierarchy populated in 0.0261 seconds. Added 1867 classes and 333 folders.
+[2016.12.20-20.14.14:979][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.12.20-20.14.15:037][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.12.20-20.14.16:443][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.20-20.14.16:508][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.12.20-20.14.17:263][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.20-20.14.17:363][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.20-20.14.17:389][  0]LogLoad: Full Startup: 27.40 seconds (BP compile: 0.75 seconds)
+[2016.12.20-20.14.17:694][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.20-20.14.18:285][  0]LogRenderer: Reallocating scene render targets to support 1092x468 (Frame:2).
+[2016.12.20-20.14.19:385][ 11]LogAssetRegistry: Asset discovery search completed in 21.7506 seconds
+[2016.12.20-20.14.19:385][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.20-20.14.19:385][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.12.20-20.14.24:485][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.14.24:485][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.20-20.14.24:510][208]PIE: New page: PIE session: FirstPersonExampleMap (Dec 20, 2016, 10:14:24 AM)
+[2016.12.20-20.14.24:510][208]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.20-20.14.24:668][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.157629s)
+[2016.12.20-20.14.24:668][208]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.20-20.14.24:669][208]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2016.12.20-20.14.24:669][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.158552s)
+[2016.12.20-20.14.24:669][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.20-20.14.24:810][208]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.20-20.14.24:852][208]LogInit: FAudioDevice initialized.
+[2016.12.20-20.14.25:071][208]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.20-20.14.25:119][208]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.20-20.14.25:139][208]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.12.20-15.14.25
+[2016.12.20-20.14.25:139][208]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.14.25:139][208]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.14.25:167][208]LogWorld: Bringing up level for play took: 0.049600
+[2016.12.20-20.14.25:237][208]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.05
+[2016.12.20-20.14.25:237][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.14.25:368][209]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:226).
+[2016.12.20-20.14.26:988][250]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.14.28:964][304]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.14.30:990][357]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.14.32:991][410]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.14.35:007][464]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.14.37:010][513]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.14.39:023][566]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.14.41:034][619]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.14.43:054][672]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.14.45:057][725]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.14.47:074][778]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.14.49:096][832]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.14.51:100][885]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.14.52:369][919]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_0
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:0427
+[2016.12.20-20.14.52:369][919]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.20-20.14.53:118][940]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.14.55:119][993]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.20-20.14.56:829][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.14.56:865][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.14.56:885][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025CF151E660
+[2016.12.20-20.15.13:065][450]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.20-20.15.13:696][450]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.12.20-20.15.50:306][462]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.15.56:031][726]LogEditorTransaction: Undo Delete current selection
+[2016.12.20-20.15.56:643][748]LogEditorTransaction: Undo Delete current selection
+[2016.12.20-20.16.00:461][877]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.16.02:355][974]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.16.23:553][ 97]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil3', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.16.34:722][697]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil2', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.16.50:685][572]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil1', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   502 vs.   500, SPmisil
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   503 vs.   500, SPmisil
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   504 vs.   500, SPmisil
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   505 vs.   500, SPmisil
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   506 vs.   500, SPmisil
+[2016.12.20-20.17.01:936][ 75]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.17.55:285][338]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.18.38:209][ 57]BlueprintLog: New page: Compile Misil4
+[2016.12.20-20.18.38:323][ 57]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.18.38:326][ 57]BlueprintEditorCompileResults: Info [0288.34] Compile of Misil4 successful! [in 116 ms]
+[2016.12.20-20.18.38:343][ 57]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.18.38:903][ 71]LogSavePackage: Save=83.699310ms
+[2016.12.20-20.18.38:904][ 71]LogSavePackage: Moving '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/Misil47648E32240B30C6D77B636AA8474F7E0.tmp' to '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/FirstPersonBP/Misiles/Misil4.uasset'
+[2016.12.20-20.18.38:906][ 71]LogSavePackage: Total save time: 134.665411ms
+[2016.12.20-20.18.38:907][ 71]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/FirstPersonBP/Misiles/Misil4.uasset
+[2016.12.20-20.18.39:753][102]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.18.40:748][105]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.18.40:748][105]LogParticles: Ribbon with too many particles:   502 vs.   500, SPmisil
+[2016.12.20-20.19.40:716][954]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.20.09:450][103]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.20.09:450][103]LogParticles: Ribbon with too many particles:   502 vs.   500, SPmisil
+[2016.12.20-20.20.09:450][103]LogParticles: Ribbon with too many particles:   503 vs.   500, SPmisil
+[2016.12.20-20.20.09:450][103]LogParticles: Ribbon with too many particles:   504 vs.   500, SPmisil
+[2016.12.20-20.20.32:121][373]LogFactory: FactoryCreateBinary: Font with FontFileImportFactory (0 0 Gameplay.ttf)
+[2016.12.20-20.20.32:121][373]LogFactory:Error: File 'Gameplay.ttf' does not exist
+[2016.12.20-20.20.32:121][373]Can't find file 'Gameplay.ttf' for import
+[2016.12.20-20.20.35:176][373]LogAssetTools:Warning: Failed to import 'Gameplay.ttf'. Failed to create asset '/Game/Gameplay'
+[2016.12.20-20.20.40:013][592]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.20.40:013][592]LogParticles: Ribbon with too many particles:   502 vs.   500, SPmisil
+[2016.12.20-20.20.40:013][592]LogParticles: Ribbon with too many particles:   503 vs.   500, SPmisil
+[2016.12.20-20.20.40:013][592]LogParticles: Ribbon with too many particles:   504 vs.   500, SPmisil
+[2016.12.20-20.20.40:013][592]LogParticles: Ribbon with too many particles:   505 vs.   500, SPmisil
+[2016.12.20-20.20.40:014][592]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.20.41:019][595]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.20.41:019][595]LogParticles: Ribbon with too many particles:   502 vs.   500, SPmisil
+[2016.12.20-20.20.41:019][595]LogParticles: Ribbon with too many particles:   503 vs.   500, SPmisil
+[2016.12.20-20.21.18:725][550]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.22.01:015][974]BlueprintLog: New page: Compile MissileCommandGM
+[2016.12.20-20.22.01:193][974]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.22.01:247][974]BlueprintEditorCompileResults: Info [0491.26] Compile of MissileCommandGM successful! [in 232 ms]
+[2016.12.20-20.22.18:974][763]LogParticles: Ribbon with too many particles:   501 vs.   500, SPmisil
+[2016.12.20-20.22.20:221][796]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.12.20-20.22.22:661][877]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.12.20-20.22.29:966][299]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores_C (CiudadesColores3)
+[2016.12.20-20.22.32:757][450]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores_C (CiudadesColores2)
+[2016.12.20-20.24.10:084][993]BlueprintLog: New page: Compile MissileCommandGM
+[2016.12.20-20.24.10:219][993]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.24.10:272][993]BlueprintEditorCompileResults: Info [0620.28] Compile of MissileCommandGM successful! [in 188 ms]
+[2016.12.20-20.24.20:005][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.12.20-20.24.21:255][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.12.20-20.24.38:295][128]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_2_C (CiudadDestruida_2)
+[2016.12.20-20.24.50:391][672]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.25.22:427][174]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores4_C (CiudadesColores24)
+[2016.12.20-20.25.28:557][472]LogEditorViewport: Clicking on Actor (LMB): PisoActor_C (PisoActor)
+[2016.12.20-20.25.29:297][512]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores4_C (CiudadesColores22)
+[2016.12.20-20.25.33:768][768]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_4_C (CiudadDestruida_4)
+[2016.12.20-20.26.05:595][275]BlueprintLog: New page: Compile MissileCommandGM
+[2016.12.20-20.26.05:798][275]BlueprintEditorCompileResults: Info [0735.81] Compile of MissileCommandGM successful! [in 203 ms]
+[2016.12.20-20.26.09:844][491]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores3_C (CiudadesColores32)
+[2016.12.20-20.26.11:359][580]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_3_C (CiudadDestruida_3)
+[2016.12.20-20.26.12:352][637]LogEditorViewport: Clicking on Actor (LMB): PisoActor_C (PisoActor)
+[2016.12.20-20.26.12:916][669]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_3_C (CiudadDestruida_3)
+[2016.12.20-20.26.14:900][786]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_3_C (CiudadDestruida_3)
+[2016.12.20-20.26.15:385][813]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_3_C (CiudadDestruida_3)
+[2016.12.20-20.26.15:894][842]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores3_C (CiudadesColores31)
+[2016.12.20-20.26.16:480][875]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores3_C (CiudadesColores32)
+[2016.12.20-20.26.17:097][910]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores3_C (CiudadesColores31)
+[2016.12.20-20.26.17:915][957]LogEditorViewport: Clicking on Actor (LMB): CiudadDestruida_3_C (CiudadDestruida_3)
+[2016.12.20-20.26.19:309][ 38]LogEditorViewport: Clicking on Actor (LMB): CiudadesColores3_C (CiudadesColores32)
+[2016.12.20-20.26.34:679][708]BlueprintLog: New page: Compile MissileCommandGM
+[2016.12.20-20.26.34:874][708]BlueprintEditorCompileResults: Info [0764.88] Compile of MissileCommandGM successful! [in 194 ms]
+[2016.12.20-20.26.35:462][721]LogSavePackage: Save=114.459610ms
+[2016.12.20-20.26.35:462][721]LogSavePackage: Moving '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/MissileCommandGM198EFBC74DE6942080F3E8A703255B5E.tmp' to '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Blueprints/MissileCommandGM.uasset'
+[2016.12.20-20.26.35:465][721]LogSavePackage: Total save time: 195.778884ms
+[2016.12.20-20.26.35:465][721]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Blueprints/MissileCommandGM.uasset
+[2016.12.20-20.26.35:884][736]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.26.35:884][736]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.12.20-20.26.35:893][736]LogPlayLevel: [PlayLevel] Compiling Misil1 before play...
+[2016.12.20-20.26.35:970][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (4 blueprints)
+[2016.12.20-20.26.35:977][736]LogPlayLevel: [PlayLevel] Compiling Misil2 before play...
+[2016.12.20-20.26.36:055][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (5 blueprints)
+[2016.12.20-20.26.36:063][736]LogPlayLevel: [PlayLevel] Compiling Misil3 before play...
+[2016.12.20-20.26.36:146][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 262 ms (6 blueprints)
+[2016.12.20-20.26.36:147][736]LogPlayLevel: [PlayLevel] Compiling SpawnClassMisil1Trasera before play...
+[2016.12.20-20.26.36:172][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.20-20.26.36:176][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0766.19] Compile of SpawnClassMisil1Trasera successful, but with 1 Warning(s) [in 18 ms]
+[2016.12.20-20.26.36:176][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0766.19] Compile of SpawnClassMisil1Trasera successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:176][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0766.19] Compile of SpawnClassMisil1Trasera successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:216][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0766.23] Compile of SpawnClassMisil1Trasera successful, but with 4 Warning(s) [in 39 ms]
+[2016.12.20-20.26.36:216][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0766.23] Compile of SpawnClassMisil1Trasera successful, but with 5 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:216][736]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning [0766.23] Compile of SpawnClassMisil1Trasera successful, but with 6 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:216][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 333 ms (6 blueprints)
+[2016.12.20-20.26.36:217][736]LogPlayLevel: [PlayLevel] Compiling SpawnClassMisil2Frontal before play...
+[2016.12.20-20.26.36:242][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.20-20.26.36:245][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0766.26] Compile of SpawnClassMisil2Frontal successful, but with 1 Warning(s) [in 18 ms]
+[2016.12.20-20.26.36:245][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0766.26] Compile of SpawnClassMisil2Frontal successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:245][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0766.26] Compile of SpawnClassMisil2Frontal successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:285][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0766.30] Compile of SpawnClassMisil2Frontal successful, but with 4 Warning(s) [in 39 ms]
+[2016.12.20-20.26.36:286][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0766.30] Compile of SpawnClassMisil2Frontal successful, but with 5 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:286][736]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning [0766.30] Compile of SpawnClassMisil2Frontal successful, but with 6 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:286][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 402 ms (6 blueprints)
+[2016.12.20-20.26.36:287][736]LogPlayLevel: [PlayLevel] Compiling SpawnClassMisil3Derecha before play...
+[2016.12.20-20.26.36:314][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.20-20.26.36:318][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0766.33] Compile of SpawnClassMisil3Derecha successful, but with 1 Warning(s) [in 20 ms]
+[2016.12.20-20.26.36:318][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0766.33] Compile of SpawnClassMisil3Derecha successful, but with 2 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:318][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0766.33] Compile of SpawnClassMisil3Derecha successful, but with 3 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:358][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0766.37] Compile of SpawnClassMisil3Derecha successful, but with 4 Warning(s) [in 40 ms]
+[2016.12.20-20.26.36:359][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0766.37] Compile of SpawnClassMisil3Derecha successful, but with 5 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:359][736]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning [0766.37] Compile of SpawnClassMisil3Derecha successful, but with 6 Warning(s) [in 0 ms]
+[2016.12.20-20.26.36:359][736]LogPlayLevel: PlayLevel: Blueprint regeneration took 475 ms (6 blueprints)
+[2016.12.20-20.26.36:400][736]PIE: New page: PIE session: FirstPersonExampleMap (Dec 20, 2016, 10:26:36 AM)
+[2016.12.20-20.26.36:400][736]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.20-20.26.36:544][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143882s)
+[2016.12.20-20.26.36:545][736]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.20-20.26.36:545][736]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2016.12.20-20.26.36:545][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.145174s)
+[2016.12.20-20.26.36:580][736]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.20-20.26.36:616][736]LogInit: FAudioDevice initialized.
+[2016.12.20-20.26.36:651][736]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.20-20.26.36:654][736]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.20-20.26.36:676][736]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.12.20-15.26.36
+[2016.12.20-20.26.36:676][736]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.26.36:676][736]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.26.36:677][736]LogWorld: Bringing up level for play took: 0.025534
+[2016.12.20-20.26.36:678][736]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.20-20.26.36:709][736]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.522
+[2016.12.20-20.26.36:709][736]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.26.38:310][776]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.26.40:336][829]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.26.42:360][881]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.26.44:362][929]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.26.46:392][979]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.26.48:409][ 28]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.26.50:449][ 78]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.26.52:457][127]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.26.54:500][174]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.26.56:545][221]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.26.58:551][266]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.27.00:579][316]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.27.02:581][365]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.27.04:601][414]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.27.05:782][442]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_40
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:03BC
+[2016.12.20-20.27.05:782][442]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.20-20.27.06:624][463]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.20-20.27.08:646][514]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.20-20.27.08:828][518]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_169
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:03BC
+[2016.12.20-20.27.08:829][518]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.20-20.27.10:663][562]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.20-20.27.12:692][611]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.20-20.27.13:455][630]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_170
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:03BC
+[2016.12.20-20.27.13:455][630]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.20-20.27.14:700][661]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 3
+[2016.12.20-20.27.16:753][707]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.20-20.27.18:791][753]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.20-20.27.18:793][753]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil1_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil1_C_41
+	Function /Game/FirstPersonBP/Misiles/Misil1.Misil1_C:ExecuteUbergraph_Misil1:03BC
+[2016.12.20-20.27.18:793][753]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil1
+[2016.12.20-20.27.20:801][800]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.20-20.27.22:816][846]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.20-20.27.23:905][871]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil4_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil4_C_171
+	Function /Game/FirstPersonBP/Misiles/Misil4.Misil4_C:ExecuteUbergraph_Misil4:03BC
+[2016.12.20-20.27.23:905][871]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil4
+[2016.12.20-20.27.24:841][894]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 4
+[2016.12.20-20.27.26:861][938]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.20-20.27.28:869][986]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.20-20.27.29:074][991]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_41
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:03BC
+[2016.12.20-20.27.29:074][991]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.20-20.27.29:597][  5]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_40
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:03BC
+[2016.12.20-20.27.29:598][  5]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.20-20.27.29:970][ 15]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_42
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:03BC
+[2016.12.20-20.27.29:971][ 15]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.20-20.27.30:898][ 40]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.20-20.27.32:929][ 95]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 5
+[2016.12.20-20.27.33:543][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.27.33:588][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.27.33:636][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025CD169FCE0
+[2016.12.20-20.28.20:671][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil1Trasera.SpawnClassMisil1Trasera:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:671][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil2Frontal.SpawnClassMisil2Frontal:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil3Derecha.SpawnClassMisil3Derecha:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil4Izquierda.SpawnClassMisil4Izquierda:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.20:672][ 91]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489.EdGraphPin_10813) from referencer (EdGraphPin /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_CallFunction_3963.EdGraphPin_44782).  Import failed...
+[2016.12.20-20.28.20:672][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_489.EdGraphPin_10813''
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil1Trasera.SpawnClassMisil1Trasera:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil2Frontal.SpawnClassMisil2Frontal:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:672][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:673][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil3Derecha.SpawnClassMisil3Derecha:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:673][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:673][ 91]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil4Izquierda.SpawnClassMisil4Izquierda:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.20:673][ 91]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283.EdGraphPin_10781) from referencer (EdGraphPin /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_CallFunction_3963.EdGraphPin_44777).  Import failed...
+[2016.12.20-20.28.20:673][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3283.EdGraphPin_10781''
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil1Trasera.SpawnClassMisil1Trasera:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil2Frontal.SpawnClassMisil2Frontal:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil3Derecha.SpawnClassMisil3Derecha:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil4Izquierda.SpawnClassMisil4Izquierda:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.27:860][440]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489.EdGraphPin_10813) from referencer (EdGraphPin /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_CallFunction_3963.EdGraphPin_44782).  Import failed...
+[2016.12.20-20.28.27:860][440]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_489.EdGraphPin_10813''
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil1Trasera.SpawnClassMisil1Trasera:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil2Frontal.SpawnClassMisil2Frontal:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:860][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:861][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil3Derecha.SpawnClassMisil3Derecha:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:861][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:861][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil4Izquierda.SpawnClassMisil4Izquierda:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.27:861][440]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283.EdGraphPin_10781) from referencer (EdGraphPin /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_CallFunction_3963.EdGraphPin_44777).  Import failed...
+[2016.12.20-20.28.27:861][440]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3283.EdGraphPin_10781''
+[2016.12.20-20.28.33:268][717]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Misil4', cached variable property's owner is '/Game/Blueprints/MissileCommandGM.MissileCommandGM_C'
+[2016.12.20-20.28.34:384][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil1Trasera.SpawnClassMisil1Trasera:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:384][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:384][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil2Frontal.SpawnClassMisil2Frontal:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil3Derecha.SpawnClassMisil3Derecha:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489 or K2Node_VariableGet /Game/FirstPersonBP/Misiles/SpawnClassMisil4Izquierda.SpawnClassMisil4Izquierda:EventGraph.K2Node_VariableGet_489
+[2016.12.20-20.28.34:385][780]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_VariableGet_489.EdGraphPin_10813) from referencer (EdGraphPin /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_CallFunction_3963.EdGraphPin_44782).  Import failed...
+[2016.12.20-20.28.34:385][780]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_489.EdGraphPin_10813''
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil1Trasera.SpawnClassMisil1Trasera:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil2.Misil2:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil2Frontal.SpawnClassMisil2Frontal:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil3.Misil3:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil3Derecha.SpawnClassMisil3Derecha:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283 or K2Node_CallFunction /Game/FirstPersonBP/Misiles/SpawnClassMisil4Izquierda.SpawnClassMisil4Izquierda:EventGraph.K2Node_CallFunction_3283
+[2016.12.20-20.28.34:385][780]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Misiles/Misil1.Misil1:EventGraph.K2Node_CallFunction_3283.EdGraphPin_10781) from referencer (EdGraphPin /Game/FirstPersonBP/Misiles/Misil4.Misil4:EventGraph.K2Node_CallFunction_3963.EdGraphPin_44777).  Import failed...
+[2016.12.20-20.28.34:385][780]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3283.EdGraphPin_10781''
+[2016.12.20-20.28.44:038][307]BlueprintLog: New page: Compile MissileCommandGM
+[2016.12.20-20.28.44:060][307]LogBlueprint:Error: [compiler MissileCommandGM] Error Could not find a function named "DeteccionColisionSPexpo" in 'MissileCommandGM_C'.
+Make sure 'MissileCommandGM_C' has been compiled for  Deteccion Colision SPexpo 
+[2016.12.20-20.28.44:349][307]LogBlueprint:Warning: [compiler SpawnClassMisil1Trasera] Warning 'Item' is already a 'Misil 1', you don't need  Cast To Misil1 .
+[2016.12.20-20.28.44:359][307]LogBlueprint:Warning: [compiler SpawnClassMisil2Frontal] Warning 'Item' is already a 'Misil 2', you don't need  Cast To Misil2 .
+[2016.12.20-20.28.44:370][307]LogBlueprint:Warning: [compiler SpawnClassMisil3Derecha] Warning 'Item' is already a 'Misil 3', you don't need  Cast To Misil3 .
+[2016.12.20-20.28.44:380][307]LogBlueprint:Warning: [compiler SpawnClassMisil4Izquierda] Warning 'Item' is already a 'Misil 4', you don't need  Cast To Misil4 .
+[2016.12.20-20.28.44:807][307]LogBlueprint:Warning: [compiler MissileCommandGM] Warning [0894.82] Compile of MissileCommandGM failed. 1 Fatal Issue(s) 0 Warning(s) [in 768 ms]
+[2016.12.20-20.28.44:807][307]BlueprintEditorCompileResults:Error: Error Could not find a function named "DeteccionColisionSPexpo" in 'MissileCommandGM_C'.
+Make sure 'MissileCommandGM_C' has been compiled for  Deteccion Colision SPexpo 
+[2016.12.20-20.28.44:807][307]BlueprintEditorCompileResults:Warning: Warning [0894.82] Compile of MissileCommandGM failed. 1 Fatal Issue(s) 0 Warning(s) [in 768 ms]
+[2016.12.20-20.29.00:010][ 44]BlueprintLog: New page: Compile MissileCommandGM
+[2016.12.20-20.29.00:177][ 44]BlueprintEditorCompileResults: Info [0910.19] Compile of MissileCommandGM successful! [in 166 ms]
+[2016.12.20-20.29.00:630][ 59]LogSavePackage: Save=71.366905ms
+[2016.12.20-20.29.00:630][ 59]LogSavePackage: Moving '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Saved/MissileCommandGMCB1AD5F94BA81E9332FB2497090BAC02.tmp' to '../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Blueprints/MissileCommandGM.uasset'
+[2016.12.20-20.29.00:633][ 59]LogSavePackage: Total save time: 86.304385ms
+[2016.12.20-20.29.00:633][ 59]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/jsoba/OneDrive/Documentos/Unreal Projects/MissileCommand2/ProyectoFinal_JObando_PTrujillo/Content/Blueprints/MissileCommandGM.uasset
+[2016.12.20-20.29.01:143][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.29.01:143][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.20-20.29.01:144][ 79]PIE: New page: PIE session: FirstPersonExampleMap (Dec 20, 2016, 10:29:01 AM)
+[2016.12.20-20.29.01:144][ 79]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.12.20-20.29.01:269][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125534s)
+[2016.12.20-20.29.01:270][ 79]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.20-20.29.01:270][ 79]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2016.12.20-20.29.01:270][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.126612s)
+[2016.12.20-20.29.01:306][ 79]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.20-20.29.01:342][ 79]LogInit: FAudioDevice initialized.
+[2016.12.20-20.29.01:377][ 79]LogWorld: Game class is 'MissileCommandGM_C'
+[2016.12.20-20.29.01:380][ 79]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SpawnClassMisil4Izquierda_180.Box)
+[2016.12.20-20.29.01:399][ 79]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.12.20-15.29.01
+[2016.12.20-20.29.01:399][ 79]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.29.01:399][ 79]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.12.20-20.29.01:400][ 79]LogWorld: Bringing up level for play took: 0.021861
+[2016.12.20-20.29.01:401][ 79]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.20-20.29.01:419][ 79]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.232
+[2016.12.20-20.29.01:420][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.12.20-20.29.03:093][124]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.29.05:105][179]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.29.07:131][234]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.29.09:134][289]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 0
+[2016.12.20-20.29.11:134][344]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.29.13:157][399]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.29.15:173][453]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.29.17:201][507]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.29.19:238][561]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 1
+[2016.12.20-20.29.21:255][614]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.29.23:267][666]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.29.25:297][719]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.29.26:605][753]LogScript:Warning: Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh'
+	Misil2_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Misil2_C_80
+	Function /Game/FirstPersonBP/Misiles/Misil2.Misil2_C:ExecuteUbergraph_Misil2:038E
+[2016.12.20-20.29.26:605][753]PIE:Error: Error Cannot access 'StaticMesh'. It is pending kill. Property: 'StaticMesh' from node Play Sound at Location in graph 'EventGraph' in blueprint Misil2
+[2016.12.20-20.29.27:322][773]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.29.29:328][826]LogBlueprintUserMessages: [SpawnClassMisil3Derecha_183] 2
+[2016.12.20-20.29.31:249][877]LogOutputDevice:Warning: 
+
+Script Stack:
+Misil4_C.ReceiveTick
+
+[2016.12.20-20.29.31:249][877]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.12.20-20.29.33:955][877]LogCrashTracker: 
+
+
+[2016.12.20-20.29.33:956][877]LogCrashTracker: 
+
+
+[2016.12.20-20.29.33:956][877]LogWindows: === Critical error: ===
+Assertion failed: Count>=0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h] [Line: 2506] 
+
+
+
+
+
+[2016.12.20-20.29.34:078][877]LogExit: Executing StaticShutdownAfterError
+[2016.12.20-20.29.34:086][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:086][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:086][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:086][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:086][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:086][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:087][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:088][877]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.12.20-20.29.34:088][877]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.12.20-20.29.34:088][877]Log file closed, 12/20/16 15:29:34
